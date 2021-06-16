@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Roboto&display=swap');
-* {
-    margin: 0;
-    padding:0;
-    border: none;
+
 }
 
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: red;
+    color: black;
 }
 /* headings and logo */
 
@@ -17,5 +14,32 @@ h1, h2 {
     color: black;
 }
 #logo {
-    
+    display: inline-flex;
+    flex-basis: auto;
 }
+
+/*naviagtion links */
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    align-items: center;
+}
+.nav-item {
+    display: inline-block;
+    font-size: 110%;
+    letter-spacing: 3px;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 2rem;
+    align-items: center;
+    color: #707070;
+    font-weight: 600;
+    justify-content: flex-end;
+}
+a:hover {
+    color: #FC5200;
+    text-decoration: none;
+
+/**/
