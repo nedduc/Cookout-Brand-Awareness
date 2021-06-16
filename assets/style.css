@@ -35,8 +35,9 @@ h1, h2 {
     margin-right: 2rem;
     align-items: center;
     color: #707070;
-    font-weight: 600;
+    font-weight: 800;
     justify-content: flex-end;
+    font-family: roboto, sans-serif;
 }
 a:hover {
     color: #FC5200;
