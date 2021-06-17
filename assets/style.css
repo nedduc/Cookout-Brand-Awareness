@@ -57,7 +57,7 @@ a:hover {
 
 }
 .section {
-    display: inline-block;
+    display: flex;
 
     justify-content: flex-end;
 
@@ -66,6 +66,6 @@ a:hover {
     color: white;
 }
 img {
-    display: inline-block;
+    display: flex;
     z-index: 1;
 }
