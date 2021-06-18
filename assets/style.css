@@ -14,58 +14,95 @@ h1, h2, p {
     text-decoration: none;
     color: black;
 }
-#logo {
-    display: inline-flex;
-    flex-basis: auto;
-}
 
 /*naviagtion links */
-
-.container-1 {
+#logo {
+    width: 100%;
+}
+nav {
     display: flex;
-    flex-direction: row;
-    flex-basis: 100%;
-    align-items: center;
 
 }
-.nav-item {
+
+li.nav-item {
     display: inline-block;
     font-size: 110%;
     letter-spacing: 3px;
-    padding: 10px;
-    text-decoration: none;
-    margin-right: 2rem;
-    align-items: center;
-    color: #707070;
+    padding: 6px;
+    margin-left: 1rem;
     font-weight: 800;
-    justify-content: flex-end;
     font-family: roboto, sans-serif;
+    color: #707070;
+    height: auto;
 }
+
 a:hover {
     color: #FC5200;
 }
+/*containers & sections*/
 
-/* container-2 where to buy section*/
 
-.container-2 {
+div.container-1 {
     display: flex;
-    flex-direction: row;
-    justify-self: space-around;
-    flex-basis: 100%;
-    align-items: center;
-    background-image: url("./images/smoke.jpg");
-
+    height: 600px;
+    background: url(../assets/images/smoke.png) no-repeat;
 }
-.section {
+
+
+div#text.box-1 {
+    flex: 1;
+    margin-left: 10%;
+    align-self: center;
+}
+div.box-2 {
+    flex: 2;
+    align-self: center;
+}
+#circle-logo {
     display: flex;
+    width: 53%;
+}
+div.container-2 {
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:chartreuse;
+}
+.box-3 {
+    display: inline-block;
+}
 
-    justify-content: flex-end;
+.box-4 {
+    display: flex;
+    background-color:pink;
+}
+section.container-3 {
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:paleturquoise;
+}
 
+
+
+/* container-2 text and logo black background*/
+.buttons {
+    width: 28%;
+    z-index: 5;
+}
+
+
+
+#black-text {
+    font-family: lato, sans-serif;
+    color: black;
 }
 #text h1, p {
     color: white;
 }
-img {
-    display: flex;
-    z-index: 1;
+
+.stock {
+    width: 20%;
 }
