@@ -30,14 +30,18 @@ li.nav-item {
     letter-spacing: 3px;
     padding: 6px;
     margin-left: 1rem;
-    font-weight: 800;
+    font-weight: 900;
     font-family: roboto, sans-serif;
     color: #707070;
     height: auto;
+    text-decoration: none;
+    
 }
 
 a:hover {
     color: #FC5200;
+    text-decoration: none;
+    
 }
 /*containers & sections*/
 
@@ -69,18 +73,10 @@ div.container-2 {
     flex-wrap: wrap;
     background-color:chartreuse;
 }
-.box-3 {
-    display: inline-block;
-}
 
-.box-4 {
-    display: flex;
-    background-color:pink;
-}
-section.container-3 {
+div.container-3 {
     display:flex;
-    justify-content: center;
-    justify-content: space-evenly;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color:paleturquoise;
 }
