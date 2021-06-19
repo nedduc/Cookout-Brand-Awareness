@@ -142,8 +142,9 @@ footer {
 
 }
 
-.social-networks {
-    display:inline-block ;
+ul.social-networks {
+    display: inline-block;
+    -ms-flex-direction: row;
 }
 .box-6 {
     height: 75px;
