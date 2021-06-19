@@ -3,26 +3,25 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Lato, roboto, sans-serif;
     font-weight: 300;
     color: black;
 }
-/* headings and logo */
 
+/* headings and logo */
 h1, h2, p {
     font-family: lato, sans-serif;
     color: black;
 }
-
 /*naviagtion links */
-
 nav {
     display: flex;
-    text-decoration: none;
+    
 }
 
 li.nav-item {
     display: inline-block;
+
     font-size: 110%;
     letter-spacing: 3px;
     padding: 8px;
@@ -33,16 +32,19 @@ li.nav-item {
 }
 
 a:hover {
-    color: #FC5200;   
+    color: #FC5200;
+    text-decoration: none; 
 }
 
+a:link {
+    text-decoration: none;
+}
 
 /*containers & sections*/
-
-
 div.container-1 {
     display: flex;
     background: url(../assets/images/smoke.png) no-repeat;
+    height: 555px;
 
 }
 
@@ -53,13 +55,16 @@ div#text.box-1 {
     align-self: center;
     flex: 1;
 }
+
 div.box-2 {
     flex: 1;
     align-self:center;
 }
+
 #circle-logo {
     display: flex;
 }
+
 div.container-2 {
     display:flex;
     padding: 5px;
@@ -67,11 +72,13 @@ div.container-2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 div.box-3 {
     display:inline-block;
     align-items: center;
     padding: auto;
 }
+
 section.box-3 {
     display:flex;
 }
@@ -83,23 +90,27 @@ div.container-3 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 div.box-4 {
     display:inline-block;
     align-items: center;
     padding: auto;
 }
+
 div#instant-image.box-4 {
     align-self: center;
     flex: -5;
 }
+
 img.circle {
     display: inline-block;
     border-radius: 50%;
     align-self: center;
-    border: 4px solid #FC5200 ;
+    border: 4px solid #FC5200;
     position: relative;
     right: -40%;
 }	
+
 div.container-4 {
     display:flex;
     padding: 5px;
@@ -108,20 +119,47 @@ div.container-4 {
     flex-wrap: wrap;
 }
 
-/* container-2 text and logo black background*/
 .buttons {
     width: 23%;
-    padding-left: 55px;
-    z-index: 5;
+    padding: 8px 0px 8px 55px;
 }
-
-
 
 #black-text {
     font-family: lato, sans-serif;
     color: black;
 }
+
 #text h1, p {
     color: white;
 }
 
+/*footer*/
+footer {
+    display: flex;
+    height: 100px;
+    padding: 0px 8px 0px 16px;
+    background-color: chartreuse;
+
+}
+
+.social-networks {
+    display:inline-block ;
+}
+.box-6 {
+    height: 75px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: black;
+
+}
+
+/*
+
+
+.social-networks > i {
+    font-size: 160%;
+    padding: 8px;
+    color: #FC5200;
+
+
+}*/
