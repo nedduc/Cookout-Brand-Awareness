@@ -16,67 +16,70 @@ h1, h2, p {
 }
 
 /*naviagtion links */
-#logo {
-    width: 100%;
-}
+
 nav {
     display: flex;
-
+    text-decoration: none;
 }
 
 li.nav-item {
     display: inline-block;
     font-size: 110%;
     letter-spacing: 3px;
-    padding: 6px;
+    padding: 8px;
     margin-left: 1rem;
     font-weight: 900;
     font-family: roboto, sans-serif;
     color: #707070;
-    height: auto;
-    text-decoration: none;
-    
 }
 
 a:hover {
-    color: #FC5200;
-    text-decoration: none;
-    
+    color: #FC5200;   
 }
+
+
 /*containers & sections*/
 
 
 div.container-1 {
     display: flex;
-    height: 600px;
     background: url(../assets/images/smoke.png) no-repeat;
-}
 
+}
 
 div#text.box-1 {
-    flex: 1;
-    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
     align-self: center;
+    flex: 1;
 }
 div.box-2 {
-    flex: 2;
-    align-self: center;
+    flex: 1;
+    align-self:center;
 }
 #circle-logo {
     display: flex;
-    width: 53%;
 }
 div.container-2 {
     display:flex;
+    padding: 5px;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
     flex-wrap: wrap;
-    background-color:chartreuse;
+}
+div.box-3 {
+    display:inline-block;
+}
+section.box-3 {
+    display:flex;
 }
 
 div.container-3 {
     display:flex;
-    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-color:paleturquoise;
 }
@@ -99,6 +102,3 @@ div.container-3 {
     color: white;
 }
 
-.stock {
-    width: 20%;
-}
