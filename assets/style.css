@@ -18,8 +18,7 @@ h1, h2, p {
 }
 nav ul {
     display: flex;
-    flex-basis: 100%;
-    
+    flex-basis: 100   
 }
 
 li.nav-item {
@@ -30,8 +29,7 @@ li.nav-item {
     padding: 8px;
     margin-left: 1rem;
     font-weight: 900;
-    font-family: roboto, sans-serif;
-    
+    font-family: roboto, sans-serif;   
 }
 
 a:hover {
@@ -40,11 +38,9 @@ a:hover {
 }
 
 a:link {
-    text-decoration: none;
+    color: green;
 }
-#arrow-up, #arrow-down {
-    height: 50%;
-}
+
 /*containers & sections*/
 div.container-1 {
     display: flex;
@@ -149,7 +145,7 @@ footer {
 }
 
 .social-networks {
-    text-align: center;
+    text-align: left;
 }
 ul.social-networks li {
     display:inline-block;
@@ -157,19 +153,16 @@ ul.social-networks li {
     font-size: 16;
     padding: 8px;
     color: #FC5200;
-    justify-content: center;
+    justify-content: flex-start;
 }
+
 .social-networks i {
     font-size: 320%;
     margin: 1%;
     padding: 5%;
     color:black;
-}
 
-li::marker { 
-    content: url('path-to-image.png'); 
-  }
-  
+}
 
 .box-6 {
     display: flex;
@@ -181,3 +174,6 @@ li::marker {
 
 }
 
+#arrow-up {
+    justify-content: flex-end;
+}
