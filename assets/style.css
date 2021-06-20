@@ -152,6 +152,7 @@ footer {
 .social-networks {
     display: inline-block;
     height:100%;
+    color: black;
     flex-direction: row;
     text-decoration: none;
 }
