@@ -42,7 +42,9 @@ a:hover {
 a:link {
     text-decoration: none;
 }
-
+#arrow-up, #arrow-down {
+    height: 50%;
+}
 /*containers & sections*/
 div.container-1 {
     display: flex;
