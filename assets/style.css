@@ -37,9 +37,6 @@ a:hover {
     text-decoration: none; 
 }
 
-a:link {
-    color: green;
-}
 
 /*containers & sections*/
 div.container-1 {
@@ -134,6 +131,10 @@ div.container-4 {
   width: 20%;
   padding: 4px 15px 4px 15px;
   border-radius: 8px;
+}
+
+.clickable:hover {
+    color: black;
 }
 
 /*a:active {
