@@ -15,7 +15,6 @@ h1, h2, p {
 }
 /*naviagtion links */
 
-}
 nav ul {
     display: flex; 
 }
@@ -42,7 +41,7 @@ li.nav-item a {
 
 span {
     display:inline-flex;
-    align-content: flex-end;
+    align-content: center;
     justify-content: space-evenly;
     
 }
@@ -62,6 +61,7 @@ div.container-1 {
 
 div#text.box-1 {
     display: inline-block;
+    font-size: 110%;
     justify-content: center;
     align-self: center;
 }
@@ -75,8 +75,7 @@ div.arrow-down a {
     display: inline-block;
     align-self: flex-end;
     color: white;
-    /*align-self: center;*/
-    padding-bottom: 60px;
+    padding-top: 450px;
 }
 
 
