@@ -189,6 +189,8 @@ ul.social-networks li {
 
 }
 
-#arrow-up {
-    justify-content: flex-end;
+i#arrow-up.fas.fa-arrow-up  {
+    color: #FC5200;
+    align-self: flex-start;
+
 }
