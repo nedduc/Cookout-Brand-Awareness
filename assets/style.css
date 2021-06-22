@@ -27,13 +27,16 @@ h1, h2, p {
 
 .nav-item {
     list-style: none;
-    margin-right: 2rem;
+    margin-right: 6rem;
     font-family: Lato, roboto, sans-serif;
 }
 
 .nav-item a {
     text-decoration: none;
     color:black;
+}
+.nav-item > a:hover {
+    color: #FC5200;
 }
 .nav-item-logo{
     margin-right: auto;
@@ -67,7 +70,9 @@ div.arrow-down a {
     color: white;
     padding-top: 450px;
 }
-
+div.arrow-down a:hover {
+    color: #FC5200;
+}
 
 #circle-logo {
     display: flex;
@@ -188,21 +193,20 @@ ul.social-networks li {
     width: inherit;
     height: 75px;
     background-color: black;
-    align-content: center;
-    padding-left: 33px;
-
+    justify-content: flex-start;
+}
+small {
+    margin-left: 2rem;
 }
 div.box-6 a {
     text-decoration: none;
 }
 
 i#arrow-up.fas.fa-angle-up  {
-    color: #FC5200;
+    color: black;
     font-size: 400%;
-    align-self: flex-end;
-
 }
-li#down.arrow-up a {
-    justify-content: flex-start;
 
+#arrow-up > a:hover {
+    color: #FC5200;
 }
