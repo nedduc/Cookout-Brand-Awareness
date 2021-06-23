@@ -39,11 +39,11 @@ h1, h2, p {
 .nav-item > a:hover {
     color: #FC5200;
 }
+
 .nav-item-logo{
     margin-right: auto;
     margin-left: 2rem;  
 }
-
 /*containers & sections*/
 div.container-1 {
     display: flex;
@@ -82,6 +82,8 @@ div.arrow-down a:hover {
 
 #circle-logo {
     display: flex;
+    width: 155%;
+    height: auto;
 }
 
 div.container-2 {
