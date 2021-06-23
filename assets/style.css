@@ -60,13 +60,14 @@ div.container-1 {
 
 div#text.box-1 {
     display: inline-block;
-    font-size: 110%;
+    font-size: 115%;
     justify-content: center;
     align-self: center;
 }
 
 div.box-2 {
     display: inline-block;
+    width: auto;
     align-self: center;
 }
 
@@ -78,13 +79,15 @@ div.arrow-down a {
     padding-top: 450px;
 }
 div.arrow-down a:hover {
+    display: inline-block;
     color: #FC5200;
 }
 
-#circle-logo {
-    display: flex;
+img#circle.logo {
+    display: inline-block;
     width: 150%;
     height: auto;
+    position: center;
 }
 
 div.container-2 {
