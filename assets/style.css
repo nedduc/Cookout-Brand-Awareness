@@ -4,6 +4,7 @@
 
 
 body {
+    display: flex;
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
     color: black;
@@ -18,7 +19,7 @@ h1, h2, p {
 
 .nav-list {
     display: flex; 
-    width: 100%;
+    width: 93%;
     margin: 0;
     justify-content: flex-end;
     align-items: center;
@@ -47,7 +48,12 @@ h1, h2, p {
 div.container-1 {
     display: flex;
     background: url(../assets/images/smoke.png) no-repeat;
-    height: 555px;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: space-evenly;
 }
 
@@ -198,6 +204,7 @@ ul.social-networks li {
 small {
     margin-left: 2rem;
 }
+
 div.box-6 a {
     text-decoration: none;
 }
