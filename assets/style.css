@@ -14,6 +14,7 @@ body {
 h1, h2, p {
     font-family: lato, sans-serif;
     color: black;
+    line-height: 2rem;
 }
 /*naviagtion links */
 
@@ -40,9 +41,10 @@ h1, h2, p {
     color: #FC5200;
 }
 
-.nav-item-logo{
-    margin-right: auto;
-    margin-left: 2rem;  
+li.nav-item-logo {
+    display: inline-block;
+    justify-content: flex-start;
+    padding-left: 22px;  
 }
 /*containers & sections*/
 div.container-1 {
@@ -144,6 +146,11 @@ div.container-4 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+div.box-5 {
+    display:inline-block;
+    align-items: center;
+    padding: 15px;
+}
 
 .clickable {
   background-color: #FC5200;
@@ -197,18 +204,15 @@ ul.social-networks li {
     margin: 1%;
     padding: 5%;
     color:black;
-
 }
 
 .box-6 {
     display: flex;
-    width: inherit;
-    height: 75px;
+    height: 85px;
     background-color: black;
-    justify-content: flex-start;
-}
-small {
-    margin-left: 2rem;
+    text-align: left;
+    padding-left: 33px;
+    padding-right: 33px;
 }
 
 div.box-6 a {
