@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Roboto&display=swap');
-
-}
-
-
+;
 body {
     display: flex;
     font-family: Lato, roboto, sans-serif;
@@ -14,22 +11,36 @@ body {
 h1, h2, p {
     font-family: lato, sans-serif;
     color: black;
+    letter-spacing: 1px;
     line-height: 2rem;
+}
+
+header {
+    display: flex;
+    width: 90%;
+}
+
+#logo {
+    display: inline-block;
+    margin: auto;
 }
 /*naviagtion links */
 
-.nav-list {
-    display: flex; 
-    width: 93%;
-    margin: 0;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
+#nav-list, .nav-item {
+    line-height: 75px;
+    display: inline-block;
+}
+#nav-list a:hover {
+    color: #FC5200;
+    border-bottom: 1px solid #FC5200;
+}
+
+#nav-list {
+    display: inline-block;
 }
 
 .nav-item {
     list-style: none;
-    margin-right: 6rem;
     font-family: Lato, roboto, sans-serif;
 }
 
@@ -37,15 +48,13 @@ h1, h2, p {
     text-decoration: none;
     color:black;
 }
-.nav-item > a:hover {
-    color: #FC5200;
-}
 
-li.nav-item-logo {
+
+/*li.nav-item-logo {
     display: inline-block;
     justify-content: flex-start;
-    padding-left: 22px;  
-}
+ 
+}*/
 /*containers & sections*/
 div.container-1 {
     display: flex;
@@ -130,8 +139,6 @@ div#instant-image.box-4 {
 }
 
 img.circle {
-    display: inline-block;
-    overflow: hidden;
     border-radius: 50%;
     align-self: center;
     border: 4px solid #FC5200;
@@ -219,11 +226,7 @@ div.box-6 a {
     text-decoration: none;
 }
 
-i#arrow-up.fas.fa-angle-up  {
+i#arrow-up.fas.fa-angle-up {
     color: black;
     font-size: 400%;
-}
-
-#arrow-up > a:hover {
-    color: #FC5200;
 }
