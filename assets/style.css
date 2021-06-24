@@ -14,9 +14,7 @@ h1, h2, p {
     letter-spacing: 1px;
     line-height: 2rem;
 }
-
 /*naviagtion links */
-
 
 .nav-list {
     margin:0;
@@ -28,12 +26,16 @@ h1, h2, p {
 
 }
 .nav-list {
+    justify-content: space-between;
     list-style: none;
     font-size; 900;
     font-family: Lato, roboto, sans-serif;
+    margin-right: 3rem;
+}
+.nav-item {
+    list-style: none;
     margin-right: 2rem;
 }
-
 .nav-item a {
     text-decoration: none;
     color: black;
@@ -43,39 +45,22 @@ h1, h2, p {
         color: #FC5200;
         border-bottom: 1px solid #FC5200;
 }
-
 .nav-item:first-child {
     list-style: none;
     margin-right: auto;
     margin-left: 2rem;
 }
 
-/*naviagtion links */
+.nav-item:first-child > a:hover {
+ 
+}
+
+
 /*
-#nav-list, .nav-item {
-    line-height: 75px;
-}
-
-#nav-list a:hover {
-    color: #FC5200;
-    border-bottom: 1px solid #FC5200;
-}
-
 #nav-list li {
     display: inline;
     justify-content: flex-end;
  }
-
-.nav-item {
-    list-style: none;
-    width: 100%;
-    font-family: Lato, roboto, sans-serif;
-}
-
-.nav-item a {
-    text-decoration: none;
-    color:black;
-} 
 */
 
 /*containers & sections*/
@@ -178,6 +163,7 @@ div.container-4 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 div.box-5 {
     display:inline-block;
     align-items: center;
@@ -200,11 +186,6 @@ div.box-5 {
     color: black;
 }
 
-/*a:active {
-    background-color: red;
-  }*/
-
-
 #black-text {
     font-family: lato, sans-serif;
     color: black;
@@ -215,6 +196,7 @@ div.box-5 {
 }
 
 /*footer*/
+
 footer {
     display: inline-block;
     width: 100%;
@@ -224,11 +206,11 @@ footer {
 .social-networks {
     text-align: left;
 }
+
 ul.social-networks li {
     display: inline-block;
     font-size: 16;
     padding: 8px;
-
 }
 
 .social-networks i {
@@ -240,7 +222,7 @@ ul.social-networks li {
 
 .box-6 {
     display: flex;
-    height: 85px;
+    height: 100%;
     background-color: black;
     text-align: left;
     padding-left: 33px;
