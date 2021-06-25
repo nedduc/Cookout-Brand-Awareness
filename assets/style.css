@@ -194,6 +194,10 @@ footer {
     display: inline-block;
     width: 100%;
     padding: 0px 8px 0px 8px;
+    color: white;
+    text-align: left;
+    left: 0;
+    bottom: 0;
 }
 
 .social-networks {
@@ -237,6 +241,7 @@ i#arrow-up.fas.fa-angle-up {
 /* Where to Buy page*/
 div.burgers-pic {
     display:flex;
+    justify-content: space-around;
     background: url(../assets/images/burgers.jpg) no-repeat;
     /* Full height */
     height: 100%;
@@ -249,16 +254,25 @@ div.burgers-pic {
 
 .transparentbox {
     display: inline-block;
-    flex-direction: wrap;
-    margin: 10px;
+    margin: 22px;
+    
     background-color: white;
-    height:735px;
-    width: 586px;
-    opacity: .5;
+    opacity: .7;
 }
 
 .transtext {
     margin: 22%;
     font-weight: bold;
+    color: black;
+  }
+  button {
+      background-color: #FC5200;
+      color: white;
+      float: center;
+      font-size: 900;
+  }
+
+  button:hover {
+    background-color: white;
     color: black;
   }
