@@ -209,11 +209,6 @@ ul.social-networks li {
     padding: 8px;
 }
 
-/* cannot seem to target last icon
-.social-networks > li:last-child a:hover {
-    color: #FC5200;
-}*/
-
 .social-networks i {
     font-size: 320%;
     margin: 1%;
@@ -223,7 +218,7 @@ ul.social-networks li {
 
 .box-6 {
     display: flex;
-    width: 98%;
+
     background-color: black;
     padding-left: 33px;
 }
@@ -237,7 +232,7 @@ i#arrow-up.fas.fa-angle-up {
     font-size: 400%;
 }
 
-/* Where to Buy page*/
+/* Where to Buy page some code taken from 3WShools*/
 div.burgers-pic {
     display:flex;
     justify-content: space-around;
@@ -249,7 +244,6 @@ div.burgers-pic {
     background-size: cover;
     justify-content: space-evenly;
     height: 100%;
-    opacity: .9;
 }
 
 .transtext {
@@ -285,6 +279,7 @@ button a {
     margin-left: 4rem;
     margin-bottom: 4rem;
     background: rgba(0, 0, 0, 0.7);
+    opacity: .9;
     color: white;
 }
 
