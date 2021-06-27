@@ -233,9 +233,9 @@ i#arrow-up.fas.fa-angle-up {
 }
 
 /* Where to Buy page some code taken from 3WShools*/
+
 div.burgers-pic {
-    display:flex;
-    justify-content: space-around;
+    display: flex;
     background: url(../assets/images/burgers.jpg) no-repeat;
     /* Full height */
     height: 100%;
@@ -246,19 +246,32 @@ div.burgers-pic {
     height: 100%;
 }
 
+.transparentbox {
+    display: inline-block;
+    width: 33%;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: .9;
+    color: white;
+}
+
 .transtext {
+    flex-direction: column;
     margin: 22%;
     font-weight: bold;
     color: white; 
   }
 
-  button {
-    display: inline-block;
-    align-items: center;
+button {
+    display: inline-flex;
+    align-self: center;
     background-color: #FC5200;
     border: 1px solid black;
     padding: 14px 28px;
     font-size: 16px;
+    margin-bottom: 4rem;
   }
     
 button a {
@@ -272,31 +285,24 @@ button a {
     color: black;
   }
 
-.transparentbox {
-    display: inline-block;
-    width: 33%;
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 4rem;
-    margin-left: 4rem;
+    margin-left: 8rem;
     margin-bottom: 4rem;
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
     color: white;
 }
 
-aside {
-    display: inline-block;
-    align-items: center;
-    align-self: center;
-    width: fit-content;
-    padding: 25px;
+.logos {
+    width: 22px;
+    width:10%;
+    height: auto;
 }
 
-.logo {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    
-}
-div.logo {
-    align-self: flex-end;
-}
+/*div.logo {
+    align-self: inline-block;
+}*/
