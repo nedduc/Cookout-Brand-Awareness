@@ -184,7 +184,7 @@ div.box-5 {
 footer {
     display: inline-block;
     width: 100%;
-    padding: 0px 8px 0px 8px;
+    padding: 0px 6px 0px 6px;
     color: white;
     text-align: left;
 }
@@ -196,7 +196,7 @@ footer {
 ul.social-networks li {
     display: inline-block;
     font-size: 16;
-    padding: 8px;
+    padding: 6px;
 }
 /* cannot seem to target last icon
 
@@ -273,15 +273,51 @@ button:hover {
 }
 
   .logo-container {
-    flex-direction: column;
+    display: flex;
+    width: 38%;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     border: 10px solid goldenrod;
 }
 
-.row {
-
+.row1 {
+max-width: 5%;
+height: auto;
 }
+.row2 {
+    max-width: 5%;
+    height: auto;
+    }
+    .row3 {
+        max-width: 5%;
+        height: auto;
+        }
+        .row4 {
+            max-width: 5%;
+            height: auto;
+            }
+            .row5 {
+                max-width: 5%;
+                height: auto;
+                }
+                .row6 {
+                    max-width: 5%;
+                    height: auto;
+                    }
 
-
+/* Recipe page*/
+.recipe h1 {
+    list-style-type: none;
+}
+.ingredient  {
+    text-decoration: none;
+    
+    color: black;
+#scripttext {
+    font-family: Dancing-Script, lato, sans-serif;
+}
   /*
   .saucebox {
     display: inline-block;
