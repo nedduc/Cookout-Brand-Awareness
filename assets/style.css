@@ -2,6 +2,7 @@
 ;
 body {
     display: flex;
+    justify-content: center;
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
     color: black;
@@ -184,7 +185,7 @@ div.box-5 {
 footer {
     display: inline-block;
     width: 100%;
-    padding: 0px 6px 0px 6px;
+
     color: white;
     text-align: left;
 }
@@ -229,14 +230,13 @@ i#arrow-up.fas.fa-angle-up {
 
 /* Where to Buy page*/
 div.burgers-pic {
-    display: flex;
     background: url(../assets/images/burgers.jpg) no-repeat;
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-size: cover;
-    justify-content: space-evenly;
+   
 }
 
 .transparentbox {
@@ -244,12 +244,14 @@ div.burgers-pic {
     margin-top: 4rem;
     margin-left: 8rem;
     margin-bottom: 4rem;
+    width: 33%;
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
     color: white;
 }
 
 .transtext {
+    align-content: center;
     font-weight: 900;
     color: white;
 }
@@ -273,39 +275,17 @@ button:hover {
 }
 
   .logo-container {
-    display: flex;
-    width: 38%;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
     flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 20%;
     border: 10px solid goldenrod;
 }
-
-.row1 {
-max-width: 5%;
-height: auto;
+div.row {
+    font-size: 4px;
 }
-.row2 {
-    max-width: 5%;
-    height: auto;
-    }
-    .row3 {
-        max-width: 5%;
-        height: auto;
-        }
-        .row4 {
-            max-width: 5%;
-            height: auto;
-            }
-            .row5 {
-                max-width: 5%;
-                height: auto;
-                }
-                .row6 {
-                    max-width: 5%;
-                    height: auto;
-                    }
+
 
 /* Recipe page*/
 .recipe h1 {
@@ -315,6 +295,7 @@ height: auto;
     text-decoration: none;
     
     color: black;
+    
 #scripttext {
     font-family: Dancing-Script, lato, sans-serif;
 }
