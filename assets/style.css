@@ -244,6 +244,7 @@ div.burgers-pic {
     margin-top: 4rem;
     margin-left: 8rem;
     margin-bottom: 4rem;
+    width: 33%;
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
     color: white;
@@ -274,72 +275,31 @@ button:hover {
 
   .logo-container {
     display: flex;
-    width: 38%;
+    flex-wrap: wrap;
+    width: 44%;
+    border: 10px solid goldenrod;
     justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    border: 10px solid goldenrod;
-}
-
-.row1 {
-max-width: 5%;
-height: auto;
-}
-.row2 {
-    max-width: 5%;
-    height: auto;
-    }
-    .row3 {
-        max-width: 5%;
-        height: auto;
-        }
-        .row4 {
-            max-width: 5%;
-            height: auto;
-            }
-            .row5 {
-                max-width: 5%;
-                height: auto;
-                }
-                .row6 {
-                    max-width: 5%;
-                    height: auto;
-                    }
-
-/* Recipe page*/
-.recipe h1 {
-    list-style-type: none;
-}
-.ingredient  {
-    text-decoration: none;
     
-    color: black;
-#scripttext {
-    font-family: Dancing-Script, lato, sans-serif;
-}
-  /*
-  .saucebox {
-    display: inline-block;
-    width: 20%;
-    padding: 4px 15px 4px 15px;
-    border-radius: 8px;
-    margin-left: 55px;
-  }
-_____________________
-.logo-container {
-    border: 10px solid goldenrod;
-    min-height: 15vh;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: black;
-    opacity: .7;
 }
 
 .row {
-    
-    width: calc(10%-20px);
-    flex: 1;
+    align-self: center;
+    padding-right: 16px;
 }
-___________________
+
+/* Recipe page*/
+li.recipe :first-child {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.ingredient  {
+    text-decoration: none;
+    color: black;
+
+#scripttext {
+    font-family: 'Dancing Script' lato, sans-serif;
+}
+  /*
+  
 */
