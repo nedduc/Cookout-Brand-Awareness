@@ -323,12 +323,22 @@ li.recipe :first-child {
 
 /* __________for medium size screen 602px and down__________*/
 @media screen and (max-width: 602px) {
-.nav-list {
-    margin: 0;
-    line-height: 28px;
-    padding: 2rem 0 1rem 0;
+
+.nav-logo:first-child {
+    list-style: none;
     justify-content: center;
 }
+.nav-list {
+    margin: 0 0;
+    line-height: 28px;
+    padding: 2rem 0 2rem 0;
+    justify-content: center;
+}
+.nav-item {
+    list-style: none;
+    align-items: center;
+}
+
 div.container-1 {
     display: flex;
     background: url(../assets/images/smoke.png) no-repeat;
