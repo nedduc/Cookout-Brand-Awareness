@@ -363,11 +363,11 @@ div.arrow-down a {
     color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    width: 20%;
+    text-align: center;
+    padding: 4px 15px 4px 15px;
     border-radius: 8px;
-    align-self: center;
   }
+
 img.circle {
     border-radius: 0%;
     align-self: center;
