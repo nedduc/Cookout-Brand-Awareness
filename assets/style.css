@@ -2,6 +2,7 @@
 ;
 body {
     display: flex;
+    justify-content: center;
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
     color: black;
@@ -243,14 +244,17 @@ i#arrow-up.fas.fa-angle-up {
 /* Where to Buy page*/
 div.burgers-pic {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background: url(../assets/images/burgers.jpg) no-repeat;
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-size: cover;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+   
 }
 
 .transparentbox {
@@ -291,16 +295,15 @@ button:hover {
   .logo-container {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
     width: 42%;
     justify-content: center;
     justify-content: space-around;
-    
 }
 
 .row {
     align-self: center;
     padding-right: 16px;
+    padding-top: 2%;
 }
 
 /* Recipe page*/
