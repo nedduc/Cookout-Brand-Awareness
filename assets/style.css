@@ -18,6 +18,7 @@ h1, h2, p {
     margin:0;
     padding:1rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     line-height: 22px;
@@ -184,7 +185,6 @@ div.box-5 {
 footer {
     display: inline-block;
     width: 100%;
- 
     color: white;
     text-align: left;
 }
@@ -198,7 +198,20 @@ ul.social-networks li {
     font-size: 16;
     padding: 6px;
 }
+
+
 /* cannot seem to target last icon
+
+ul.social-networks:last-child {
+    color: #FC5200;
+}
+
+li.arrow-up > #down a:hover {
+    color: #FC5200;
+}
+
+#top a:hover {
+    color: #FC5200;}
 
 .social-networks li:last-child a:hover {
     color: #FC5200;
