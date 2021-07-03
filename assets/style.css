@@ -184,7 +184,7 @@ div.box-5 {
 footer {
     display: inline-block;
     width: 100%;
-    padding: 0px 6px 0px 6px;
+ 
     color: white;
     text-align: left;
 }
@@ -236,14 +236,12 @@ div.burgers-pic {
     /* Center and scale the image nicely */
     background-position: center;
     background-size: cover;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .transparentbox {
     display: inline-block;
-    margin-top: 4rem;
-    margin-left: 8rem;
-    margin-bottom: 4rem;
     width: 33%;
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
@@ -251,13 +249,17 @@ div.burgers-pic {
 }
 
 .transtext {
+    text-align: justify;
+    padding-left: 3rem;
     font-weight: 900;
     color: white;
+    
 }
 
 button {
       background-color: #FC5200;
       color: white;
+      text-align: center;
       padding: 14px 28px; 
   }
   
@@ -276,9 +278,10 @@ button:hover {
   .logo-container {
     display: flex;
     flex-wrap: wrap;
-    width: 44%;
-    border: 10px solid goldenrod;
+    height: 600px;
+    width: 42%;
     justify-content: center;
+    justify-content: space-around;
     
 }
 
@@ -296,10 +299,22 @@ li.recipe :first-child {
 .ingredient  {
     text-decoration: none;
     color: black;
+}
 
-#scripttext {
+    /*
     font-family: 'Dancing Script' lato, sans-serif;
 }
-  /*
   
 */
+
+/* for medium size screen 602px and down*/
+@media screen and (max-width: 602px) {
+    .nav-list {
+        margin:0;
+        padding:1rem 0;
+        justify-content: flex-start;
+        align-items: center;
+        line-height: 22px;
+    }
+    
+}
