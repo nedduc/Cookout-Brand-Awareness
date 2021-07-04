@@ -230,6 +230,8 @@ li.arrow-up > #down a:hover {
     background-color: black;
     padding-left: 33px;
     padding-right: 33px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     height: auto;
 }
 
@@ -316,12 +318,12 @@ li.recipe :first-child {
     text-decoration: none;
     color: black;
 }
-
-    /*
-    font-family: 'Dancing Script' lato, sans-serif;
-}
+#scripttext {
+    font-family: 'Dancing Script', lato, sans-serif;
+    font-size: 3rem;
+ }   
   
-*/
+
 
 /* __________for medium size screen 602px and down__________*/
 @media screen and (max-width: 602px) {
