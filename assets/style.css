@@ -322,7 +322,9 @@ li.recipe :first-child {
     font-family: 'Dancing Script', lato, sans-serif;
     font-size: 3rem;
  }   
-  
+h2#nobullet {
+    list-style: none;
+}
 
 
 /* __________for medium size screen 602px and down__________*/
