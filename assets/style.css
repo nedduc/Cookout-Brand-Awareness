@@ -320,6 +320,7 @@ li.recipe :first-child {
 }
 #scripttext {
     font-family: 'Dancing Script', lato, sans-serif;
+    line-height: normal;
     font-size: 3rem;
  }   
 h2#nobullet {
