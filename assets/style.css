@@ -264,32 +264,44 @@ i#arrow-up.fas.fa-angle-up {
     justify-content: space-around;
     align-items: center;
     background: url(../assets/images/burgers.jpg) no-repeat;
-    height: 49rem;
+    height: 100%;
     background-position: center;
     background-size: cover; 
+    /*annimates zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;  
 }
+/*create a zoom effect*/
+@keyframes hero-zoom  {
+    from{
+        transform: scale(.8);
+    }
+        to {transform: scale(1);
+        }
+}
+
 .transparentbox {
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
     color: white;
     display:inline-block;
     align-items: center;
-    padding: 6rem;
+    padding: 8rem;
     /*
     width: 33%;
     padding-top: 2rem;*/
 }
 .transtext {
-    padding: 2rem 2rem 2rem 2rem;
     font-weight: 900;
     color: white; 
-    background-color: hotpink;
 }
 button {
       background-color: #FC5200;
       color: white;
       text-align: center;
       padding: 14px 28px;
+      align-items: center;
 }
   
 button a {
@@ -329,10 +341,12 @@ li.recipe :first-child {
     font-family: Lato, roboto, sans-serif;
     line-height: 2.5rem;
     color: black;
+    text-indent: 1em;
 }
 .recipe {
     font-family: Lato, roboto, sans-serif;
     line-height: 2rem;
+    text-indent: 1em;
     color: black;
 }
 
@@ -426,7 +440,13 @@ footer {
     border-radius: 8px;
     scroll-behavior: smooth;
   }
-
+  .logo-container {
+    width: 40%;
+    display:inline-block;
+    align-items: center;
+    padding: 15px;
+    background-color: palegreen;
+}
 }
 /*____________end of media query*/
 
