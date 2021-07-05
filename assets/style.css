@@ -301,19 +301,17 @@ i#arrow-up.fas.fa-angle-up {
     align-items: center;
     width: 586px;
     height: 735px; 
-    /*
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    padding: 2rem;
-    width: 30%;
-    padding-left: 2rem;*/
 }
 .transtext {
+    font-family: lato, sans-serif;
+    letter-spacing: 1px;
+    line-height: 2rem;
     font-weight: 900;
     color: white;
     align-self: center; 
+    padding-bottom: 3rem;
 }
+   
 button {
       background-color: #FC5200;
       color: white;
