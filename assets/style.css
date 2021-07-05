@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Roboto&display=swap');
 ;
 body {
-    justify-content: center;
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
     color: black;
 }
 /* headings and logo */
+header {
+    padding-top: .3%;
+}
+
 h1, h2, p {
     font-family: lato, sans-serif;
     color: black;
@@ -144,9 +147,8 @@ div#instant-image.box-4 {
 
 img.circle {
     border-radius: 50%;
-    align-self: center;
     border: 4px solid #FC5200;
-    height: 600px;
+    height: 100%;
     position: -40px;
 }	
 
@@ -214,18 +216,14 @@ ul.social-networks a:hover {
     color: #FC5200; 
 }
 /* cannot seem to target last icon
-
 ul.social-networks:last-child {
     color: #FC5200;
 }
-
 li.arrow-up > #down a:hover {
     color: #FC5200;
 }
-
 #top a:hover {
     color: #FC5200;}
-
 .social-networks li:last-child a:hover {
     color: #FC5200;
 }*/
@@ -255,7 +253,7 @@ i#arrow-up.fas.fa-angle-up {
     font-size: 400%;
 }
 
-/* Where to Buy page*/
+/* Where to Buy page __________________________________________????????????*/
 
 .flex-container {
     display: flex;
@@ -264,12 +262,12 @@ i#arrow-up.fas.fa-angle-up {
     justify-content: space-around;
     align-items: center;
     background: url(../assets/images/burgers.jpg) no-repeat;
-    height: 100%;
+    height: 800px;
     background-position: center;
     background-size: cover; 
-    /*annimates zoom effect on loading page*/
+/*animates zoom effect on loading page*/
     animation-name: hero-zoom;
-    animation-duration: 2s;
+    animation-duration: 1.3s;
     animation-fill-mode: forwards;  
 }
 /*create a zoom effect*/
@@ -281,28 +279,55 @@ i#arrow-up.fas.fa-angle-up {
         }
 }
 
+.logo-container {
+    text-align: center;
+    padding-right: 6rem;
+    height:auto;
+    width: 46%;
+}
+.row {
+    padding: 1, 1, 1, 1rem;
+    width: auto;
+    padding: 8px 8px 8px 8px;
+}
+
 .transparentbox {
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
     color: white;
-    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 8rem;
+    width: 586px;
+    height: 735px; 
     /*
-    width: 33%;
-    padding-top: 2rem;*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2rem;
+    width: 30%;
+    padding-left: 2rem;*/
 }
 .transtext {
     font-weight: 900;
-    color: white; 
+    color: white;
+    align-self: center; 
 }
 button {
       background-color: #FC5200;
       color: white;
+      border: .2rem dotted white;
       text-align: center;
       padding: 14px 28px;
       align-items: center;
 }
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   
 button a {
     text-decoration: none;
@@ -313,21 +338,6 @@ button a {
 button:hover {
     background-color: white;
     color: black;
-}
-
-.logo-container {
-    width: 40%;
-    display:inline-block;
-    align-items: center;
-    padding: 15px;
-    background-color: palegreen;
-}
-
-.row {
-    width: auto;
-    padding: .5rem .5rem;
-    
-    
 }
 
 /* Recipe page*/
@@ -353,7 +363,7 @@ li.recipe :first-child {
 .scripttext {
     font-family: 'Dancing Script', lato, sans-serif;
     line-height: normal;
-    font-size: 3rem;
+    font-size: 3.2rem;
     text-align: center;
  }   
 
@@ -371,8 +381,13 @@ li.recipe :first-child {
 }
 
 #sauce-img {
-  width: 100%;
+  width: 624px;
   height: auto;
+  margin: 0%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* __________for medium size screen 602px and down__________*/
@@ -421,7 +436,8 @@ img.circle {
     border-radius: 0%;
     align-self: center;
     border: 4px solid #FC5200;
-    position: relative;
+    width: 90%;
+    text-align: center;
 }
 footer {
     display: inline-block;
@@ -441,13 +457,34 @@ footer {
     scroll-behavior: smooth;
   }
   .logo-container {
-    width: 40%;
-    display:inline-block;
-    align-items: center;
-    padding: 15px;
-    background-color: palegreen;
+        display:flex;
+        justify-content: center;
+        width: 10%;
 }
+/*Recipe page order list*/
+.ingredient  {
+    font-family: Lato, roboto, sans-serif;
+    line-height: 1.5rem;
+    font-size: smaller;
+    color: black;
+    text-indent: 1rem;
 }
+.recipe {
+    font-family: Lato, roboto, sans-serif;
+    line-height: 1.5rem;
+    text-indent: .5rem;
+    font-size: smaller;
+    color: black;
+
+}
+
+
+
+/*where to buy page*/
+
+
+
+
 /*____________end of media query*/
 
 
