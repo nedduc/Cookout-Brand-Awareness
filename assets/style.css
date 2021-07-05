@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Roboto&display=swap');
 ;
 body {
-    display: flex;
     justify-content: center;
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
@@ -257,48 +256,39 @@ i#arrow-up.fas.fa-angle-up {
 }
 
 /* Where to Buy page*/
-div.burgers-pic {
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
     background: url(../assets/images/burgers.jpg) no-repeat;
-    /* Full height */
     height: 100%;
-    /* Center and scale the image nicely */
     background-position: center;
-    background-size: cover;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-   
+    background-size: cover; 
 }
-
 .transparentbox {
-    display: inline-block;
     width: 33%;
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
     color: white;
 }
-
 .transtext {
-    text-align: justify;
     padding-left: 3rem;
     font-weight: 900;
-    color: white;
-    
+    color: white; 
+    background-color: hotpink;
 }
-
 button {
       background-color: #FC5200;
       color: white;
       text-align: center;
       padding: 14px 28px; 
-  }
+}
   
 button a {
     text-decoration: none;
     color:black;
-    text-align:center;
     font-weight: 900;
 }
 
@@ -308,16 +298,17 @@ button:hover {
 }
 
 .logo-container {
-    display: flex;
+    display: flexbox;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 42%;
-    justify-content: center;
-    justify-content: space-around;
+    background-color: palegreen;
+    width: 40%;
 }
 
 .row {
-    align-self: center;
+    width: auto;
     padding: .5rem .5rem;
+    
 }
 
 /* Recipe page*/
@@ -334,7 +325,7 @@ li.recipe :first-child {
 }
 .recipe {
     font-family: Lato, roboto, sans-serif;
-    line-height: 1.8rem;
+    line-height: 2rem;
     color: black;
 }
 
@@ -366,12 +357,6 @@ li.recipe :first-child {
   height: auto;
 
 }
-/* why can i not center this below ??*/
-.black-cookout-logo > img {
-align-self: center;
-}
-
-
 
 /* __________for medium size screen 602px and down__________*/
 
@@ -438,7 +423,6 @@ footer {
     border-radius: 8px;
     scroll-behavior: smooth;
   }
-
 
 }
 /*____________end of media query*/
