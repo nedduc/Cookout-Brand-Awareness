@@ -28,7 +28,7 @@ nav {
     justify-content:space-around;
     background-color: rgb(187, 184, 184);
     position: fixed;
-    width: 99.12%;
+    width: 99.113%;
     height: 75px:
 
 }
@@ -184,10 +184,10 @@ div.box-5 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  justify-items: self-start
   width: auto;
   padding: 4px 15px 4px 15px;
   border-radius: 8px;
-  margin-left: 55px;
   transition-duration: 1s;
   scroll-behavior: smooth;
 }
@@ -276,7 +276,8 @@ i#arrow-up.fas.fa-angle-up {
     background: url(../assets/images/burgers.jpg) no-repeat;
     height: 100%;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
+    margin-top: 85px; 
 /*animates zoom effect on loading page*/
     animation-name: hero-zoom;
     animation-duration: 1.3s;
@@ -359,6 +360,10 @@ li.recipe :first-child {
     text-decoration: none;
 }
 
+.recipe-heading {
+    margin-top: 85px;
+}
+
 .ingredient  {
     text-decoration: none;
     font-family: Lato, roboto, sans-serif;
@@ -392,7 +397,6 @@ li.recipe :first-child {
   transition-duration: 1s;
   scroll-behavior: smooth;
 }
-
 #sauce-img {
   width: 624px;
   height: auto;
@@ -401,6 +405,10 @@ li.recipe :first-child {
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
+}
+.black-cookout-logo {
+    text-align: center;
+    padding-top: 4%;
 }
 /*digital book page*/
 
@@ -525,6 +533,10 @@ footer {
         width: 10%;
 }
 /*Recipe page order list*/
+.recipe-heading {
+    margin-top: 180px;
+    height: 4%;
+}
 .ingredient  {
     font-family: Lato, roboto, sans-serif;
     line-height: 1.5rem;
@@ -539,6 +551,12 @@ footer {
     font-size: smaller;
     color: black;
 }
+#sauce-img {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    justify-content: center;
+  }
 /*where to buy page*/
 .logo-container {
     display: flex;
