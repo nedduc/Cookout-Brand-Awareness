@@ -41,11 +41,7 @@ nav {
 .nav-list {
     justify-content: space-between;
     font-family: Lato, roboto, sans-serif;
-    overflow: hidden;
-    background-color: rgb(221, 217, 217);
-    position: fixed;
-    top: 0;
-    width: 99.12%;
+    margin-right: 3rem;
 }
 .nav-item {
     list-style: none;
@@ -65,9 +61,6 @@ nav {
     margin-right: auto;
     margin-left: 2rem;
 }
-a:visited {
-    background-color: yellow;
-  }
 
 li.nav-logo a {
     text-decoration: none;
@@ -189,18 +182,6 @@ div.box-5 {
   padding: 4px 15px 4px 15px;
   border-radius: 8px;
   margin-left: 55px;
-  transition-duration: 1s;
-  scroll-behavior: smooth;
-}
-.headings {
-  background-color: #FC5200;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width: auto;
-  padding: 4px 15px 4px 15px;
-  border-radius: 8px;
   transition-duration: 1s;
   scroll-behavior: smooth;
 }
@@ -559,7 +540,7 @@ footer {
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
-    width: 100%;
+    width: 12%;
     height: 40%;
 }
 img.row {
@@ -592,10 +573,3 @@ img.row {
   }
 }
 /*____________end of media query*/
-
-
-  
-
-
-
-
