@@ -7,7 +7,7 @@ body {
 }
 /* headings and logo */
 header {
-    padding-top: .3%;
+    padding-top: 1px;
 }
 
 h1, h2, p {
@@ -26,6 +26,11 @@ h5 {
 /*naviagtion links */
 nav {
     justify-content:space-around;
+    background-color: rgb(187, 184, 184);
+    position: fixed;
+    width: 99.12%;
+    height: 75px:
+
 }
 
 .nav-list {
@@ -77,6 +82,7 @@ div.container-1 {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-evenly;
+    margin-top: 75px;
 }
 
 div#text.box-1 {
