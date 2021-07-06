@@ -24,14 +24,19 @@ h5 {
     text-align: center;
 }
 /*naviagtion links */
+nav {
+    justify-content:space-around;
+}
+
 .nav-list {
     margin:0;
     padding:1rem 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content:space-evenly;
     align-items: center;
     line-height: 22px;
+    text-align: center;
 }
 .nav-list {
     justify-content: space-between;
@@ -41,6 +46,7 @@ h5 {
 .nav-item {
     list-style: none;
     margin-right: 2rem;
+    justify-content:center;
 }
 .nav-item a {
     text-decoration: none;
@@ -262,7 +268,7 @@ i#arrow-up.fas.fa-angle-up {
     justify-content: space-around;
     align-items: center;
     background: url(../assets/images/burgers.jpg) no-repeat;
-    height: 800px;
+    height: 100%;
     background-position: center;
     background-size: cover; 
 /*animates zoom effect on loading page*/
@@ -280,9 +286,11 @@ i#arrow-up.fas.fa-angle-up {
 }
 
 .logo-container {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    padding-right: 6rem;
-    height:auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
     width: 46%;
 }
 .row {
@@ -299,12 +307,14 @@ i#arrow-up.fas.fa-angle-up {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 2%;
     width: 586px;
-    height: 735px; 
+    height: 710px; 
 }
 .transtext {
     font-family: lato, sans-serif;
     letter-spacing: 1px;
+    text-align: center;
     line-height: 2rem;
     font-weight: 900;
     color: white;
@@ -326,7 +336,6 @@ button {
     align-items: center;
 }
 
-  
 button a {
     text-decoration: none;
     color:black;
@@ -389,7 +398,18 @@ li.recipe :first-child {
 }
 /*digital book page*/
 
-/* Where to Buy page __________________________________________????????????*/
+.scriptwhite {
+    font-family: 'Dancing Script', lato, sans-serif;
+    line-height: normal;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+  }
+form {
+    font-family: Lato, roboto, sans-serif;
+    font-weight: 300;
+    color: white;
+}
 
 .flex-container-digital-book {
     display: flex;
@@ -413,7 +433,8 @@ li.recipe :first-child {
     }
         to {transform: scale(1);
         }
-}
+ }
+
 
 /* __________for medium size screen 602px and down__________*/
 
@@ -500,16 +521,37 @@ footer {
     text-indent: .5rem;
     font-size: smaller;
     color: black;
-
+}
+/*where to buy page*/
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 12%;
+    height: 25%;
+}
+img.row {
+    padding: 1, 1, 1, 1rem;
+    height: 4%;
+    width: auto;
+    text-align: center;
 }
 
-
-
-/*where to buy page*/
-
-
-
-
+.transparentbox {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: .9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    width: 586px;
+    height: 50%; 
+}
+}
 /*____________end of media query*/
 
 
