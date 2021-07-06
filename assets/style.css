@@ -540,7 +540,7 @@ footer {
     padding-right: 1rem;
     padding-left: 1rem;
     width: 12%;
-    height: 25%;
+    height: 40%;
 }
 img.row {
     padding: 1, 1, 1, 1rem;
@@ -561,6 +561,15 @@ img.row {
     width: 586px;
     height: 50%; 
 }
+/*digital book page and form*/
+.scriptwhite {
+    font-family: 'Dancing Script', lato, sans-serif;
+    line-height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    height: 33%;
+  }
 }
 /*____________end of media query*/
 
