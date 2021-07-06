@@ -30,9 +30,7 @@ nav {
     position: fixed;
     width: 99.113%;
     height: 75px:
-
 }
-
 .nav-list {
     margin:0;
     padding:1rem 0;
@@ -192,6 +190,18 @@ div.box-5 {
   scroll-behavior: smooth;
 }
 
+.heading {
+  background-color: #FC5200;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  justify-items: self-start
+  width: auto;
+  padding: 4px 15px 4px 15px;
+  border-radius: 8px;
+  transition-duration: 1s;
+  scroll-behavior: smooth;
+}
 .clickable:hover {
     color: black;
 }
