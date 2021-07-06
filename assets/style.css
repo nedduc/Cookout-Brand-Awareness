@@ -32,9 +32,11 @@ nav {
     height: 75px:
 }
 .nav-list {
-    margin:0;
-    padding:1rem 0;
+    font-family: Lato, roboto, sans-serif;
     display: flex;
+    margin:0;
+    height: 75px;
+    
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items: center;
@@ -43,7 +45,7 @@ nav {
 }
 .nav-list {
     justify-content: space-between;
-    font-family: Lato, roboto, sans-serif;
+    
     margin-right: 3rem;
 }
 .nav-item {
@@ -61,8 +63,7 @@ nav {
 }
 .nav-logo:first-child {
     list-style: none;
-    margin-right: auto;
-    margin-left: 1rem;
+    margin-right: auto;   
 }
 
 li.nav-logo a {
