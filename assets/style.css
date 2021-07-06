@@ -400,15 +400,25 @@ li.recipe :first-child {
 
 .scriptwhite {
     font-family: 'Dancing Script', lato, sans-serif;
-    line-height: normal;
-    font-size: 3.2rem;
+    line-height: 6rem;
+    font-size: 4rem;
     text-align: center;
-    color: white;
+    color: black;
+    height: 100%;
   }
 form {
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
+    line-height: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     color: white;
+    padding: 20px;
+}
+input [type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+
 }
 
 .flex-container-digital-book {
