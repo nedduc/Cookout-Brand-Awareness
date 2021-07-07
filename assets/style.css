@@ -262,6 +262,7 @@ i#arrow-up.fas.fa-angle-up {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
     padding-right: 2rem;
     padding-left: 2rem;
     width: 46%;
@@ -380,6 +381,29 @@ li.recipe :first-child {
     padding-top: 4%;
 }
 /*digital book page*/
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    width: 48%;
+}
+.transparentbox2 {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: .9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    border-radius: 2%;
+    border:22px, 22px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
 
 .scriptwhite {
     font-family: 'Dancing Script', lato, sans-serif;
@@ -392,7 +416,7 @@ li.recipe :first-child {
 form {
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
-    width: 30%;
+    width: 80%;
     line-height: 2rem;
     padding-left: 8rem;
     padding-right: 8rem;
@@ -404,29 +428,28 @@ input [type=text], select, textarea {
     padding: 12px;
 }
 
-.flex-container-db {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction:;
-        justify-content: space-around;
-        align-items: center;
-        background: url(../assets/images/burgers.jpg) no-repeat;
-        height: 100%;
-        background-position: center;
-        background-size: cover; 
-    /*animates zoom effect on loading page*/
-        animation-name: hero-zoom;
-        animation-duration: 1.3s;
-        animation-fill-mode: forwards;  
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../assets/images/steak.jpg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+/*animates zoom effect on loading page from W3s*/
+    animation-name: hero-zoom;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards; 
+}
+/*create a zoom effect*/
+@keyframes hero-zoom  {
+    from{
+        transform: scale(.8);
     }
-    /*create a zoom effect*/
-    @keyframes hero-zoom  {
-        from{
-            transform: scale(.8);
+        to {transform: scale(1);
         }
-            to {transform: scale(1);
-            }
-    }
+}
 
 
 /* __________for medium size screen 602px and down__________*/
