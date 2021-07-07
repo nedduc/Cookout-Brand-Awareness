@@ -24,7 +24,7 @@ h5 {
 }
 /*naviagtion links*/
 nav {
-    background-color: rgb(187, 184, 184);
+    background-color: rgb(211, 207, 207);
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -35,8 +35,9 @@ nav {
     font-family: Lato, roboto, sans-serif;
     display: flex;
     margin:0;
+    font-weight: 600;
     height: 75px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     line-height: 22px;
@@ -46,6 +47,7 @@ nav {
 .nav-item {
     list-style: none;
     padding-right: 3rem;
+    padding-left: 2rem;
     z-index:1;
 }
 .nav-item a {
@@ -59,7 +61,6 @@ nav {
 .nav-logo:first-child {
     list-style: none;
     margin-right: auto;
-    padding-left: 1rem;
 }
 
 li.nav-logo a {
@@ -234,7 +235,7 @@ i#arrow-up.fas.fa-angle-up {
     color: black;
     font-size: 400%;
 }
-/* Where to Buy page _______________*/
+/* Where to Buy page _______________________*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -265,7 +266,7 @@ i#arrow-up.fas.fa-angle-up {
     justify-content: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    width: 46%;
+    width: 100%;
 }
 .row {
     padding: 1, 1, 1, 1rem;
@@ -374,52 +375,7 @@ li.recipe :first-child {
     text-align: center;
     padding-top: 4%;
 }
-/*digital book page*/
-.text-container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    width: 48%;
-}
-.transparentbox2 {
-    background: rgba(0, 0, 0, 0.7);
-    opacity: .9;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 30%;
-    align-items: center;
-    border-radius: 2%;
-    border:22px, 22px;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
-.scriptwhite {
-    font-family: 'Dancing Script', lato, sans-serif;
-    line-height: 6rem;
-    font-size: 4rem;
-    text-align: center;
-    color: black;
-    height: 100%;
-  }
-form {
-    font-family: Lato, roboto, sans-serif;
-    font-weight: 300;
-    width: 80%;
-    line-height: 2rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    color: white;
-    padding: 20px;
-}
-input [type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-}
+/*====digital book order page====*/
 .flex-container2 {
     display: flex;
     flex-wrap: wrap;
@@ -443,6 +399,85 @@ input [type=text], select, textarea {
         }
 }
 
+.transparentbox2 {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: .9;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 46%;
+    align-items: center;
+    border-radius: 2%;
+    border:2rem, 2em;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.transtext2 {
+    font-family: lato, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 900;
+    color: white;
+    align-self: center; 
+    padding-bottom: 3rem;
+} 
+.scriptwhite {
+    font-family: 'Dancing Script', lato, sans-serif;
+    line-height: 6rem;
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+    height: 100%;
+  }
+  
+form {
+    font-family: Lato, roboto, sans-serif;
+    font-weight: 900;
+    width: 75%;
+    line-height: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: white;
+    padding: 20px;
+}
+input [type=text], select, textarea {
+    width: 50%;
+    padding: 6px;
+}
+button {
+    background-color: #FC5200;
+    color: white;
+    border: .2rem dotted white;
+    text-align: center;
+    padding: 14px 28px;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+/*_____Thank you page________*/
+.flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../assets/images/steak.jpg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+/*animates zoom effect on loading page from W3s*/
+    animation-name: hero-zoom;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards; 
+}
+/*create a zoom effect*/
+@keyframes hero-zoom  {
+    from{
+        transform: scale(.8);
+    }
+        to {transform: scale(1);
+        }
+}
 
 /* _______________for medium size screen 602px and down__________*/
 
@@ -530,7 +565,6 @@ footer {
     height: auto;
     margin: 0%;
     justify-content: center;
-    margin-top: ;
   }
 /*where to buy page*/
 .logo-container {
@@ -558,17 +592,40 @@ img.row {
     justify-content: center;
     align-items: center;
     border-radius: 2%;
-    width: 586px;
+    width: 100%;
     height: 20%; 
 }
 /*digital book page and form*/
+.transparentbox2 {
+    width: 100%;
+    align-items: center;
+    border-radius: 2%;
+    border:2rem, 2em;
+    margin-top: 75px;
+    margin-bottom: px;
+}
+.transtext2 {
+    font-family: lato, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 900;
+    color: white;
+    align-self: center; 
+    padding-bottom: 2px;
+} 
 .scriptwhite {
     font-family: 'Dancing Script', lato, sans-serif;
-    line-height: 3rem;
+    line-height: 2rem;
     font-size: 2rem;
-    text-align: center;
     color: black;
-    height: 33%;
+    height: 20%;
   }
+  button {
+    padding: 14px 28px;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
 }
 /*____________end of media query*/
