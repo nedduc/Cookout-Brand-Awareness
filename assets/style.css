@@ -7,7 +7,7 @@ body {
 }
 /* headings and logo */
 header {
-    padding-top: 1px;
+height: 100%;
 }
 
 h1, h2, p {
@@ -23,35 +23,30 @@ h5 {
     line-height: 1rem;
     text-align: center;
 }
-/*naviagtion links */
+/*naviagtion links*/
+
 nav {
-    justify-content:space-around;
     background-color: rgb(187, 184, 184);
+    overflow: hidden;
     position: fixed;
-    width: 99.113%;
-    height: 75px:
+    top: 0;
+    width: 100%;
 }
+
 .nav-list {
     font-family: Lato, roboto, sans-serif;
     display: flex;
     margin:0;
     height: 75px;
-    
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content:space-evenly;
     align-items: center;
     line-height: 22px;
     text-align: center;
 }
-.nav-list {
-    justify-content: space-between;
-    
-    margin-right: 3rem;
-}
 .nav-item {
     list-style: none;
-    margin-right: 2rem;
-    justify-content:center;
+    padding-right: 3rem;
 }
 .nav-item a {
     text-decoration: none;
@@ -63,12 +58,16 @@ nav {
 }
 .nav-logo:first-child {
     list-style: none;
-    margin-right: auto;   
+    margin-right: auto;
 }
 
 li.nav-logo a {
     text-decoration: none;
 }
+/*.nav-item > a:active {
+    background-color: blueviolet;
+}*/
+
 /*containers & sections*/
 div.container-1 {
     display: flex;
@@ -81,7 +80,7 @@ div.container-1 {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-evenly;
-    margin-top: 75px;
+    margin-top: 65px;
 }
 
 div#text.box-1 {
@@ -112,10 +111,8 @@ div.arrow-down a:hover {
     color: #FC5200;
 }
 
-img#circle.logo {
+#circle-logo {
     display: inline-block;
-    width: 150%;
-    height: auto;
     position: center;
 }
 
@@ -183,7 +180,7 @@ div.box-5 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  justify-items: self-start
+  justify-items: self-start;
   width: auto;
   padding: 4px 15px 4px 15px;
   border-radius: 8px;
@@ -196,7 +193,7 @@ div.box-5 {
   color: white;
   text-align: center;
   display: inline-block;
-  justify-items: self-start
+  justify-items: self-start;
   width: auto;
   padding: 4px 15px 4px 15px;
   border-radius: 8px;
@@ -235,22 +232,9 @@ ul.social-networks li {
     padding: 6px;
 }
 
-ul.social-networks a:hover {
+i#arrow-up.fas.fa-angle-up::before {
     color: #FC5200; 
 }
-/* cannot seem to target last icon
-ul.social-networks:last-child {
-    color: #FC5200;
-}
-li.arrow-up > #down a:hover {
-    color: #FC5200;
-}
-#top a:hover {
-    color: #FC5200;}
-.social-networks li:last-child a:hover {
-    color: #FC5200;
-}*/
-
 .social-networks i {
     font-size: 320%;
     margin: 1%;
@@ -276,20 +260,19 @@ i#arrow-up.fas.fa-angle-up {
     font-size: 400%;
 }
 
-/* Where to Buy page __________________________________________????????????*/
+/* Where to Buy page _______________*/
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background: url(../assets/images/burgers.jpg) no-repeat;
     height: 100%;
     background-position: center;
     background-size: cover;
-    margin-top: 85px; 
-/*animates zoom effect on loading page*/
+    margin-top: 73px;
+/*animates zoom effect on loading page from W3s*/
     animation-name: hero-zoom;
     animation-duration: 1.3s;
     animation-fill-mode: forwards;  
@@ -316,7 +299,6 @@ i#arrow-up.fas.fa-angle-up {
     width: auto;
     padding: 8px 8px 8px 8px;
 }
-
 .transparentbox {
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
@@ -326,8 +308,6 @@ i#arrow-up.fas.fa-angle-up {
     justify-content: center;
     align-items: center;
     border-radius: 2%;
-    width: 586px;
-    height: 710px; 
 }
 .transtext {
     font-family: lato, sans-serif;
@@ -395,7 +375,6 @@ li.recipe :first-child {
     font-size: 3.2rem;
     text-align: center;
  }   
-
 .clickable-not {
   background-color: #FC5200;
   color: white;
@@ -409,8 +388,6 @@ li.recipe :first-child {
   scroll-behavior: smooth;
 }
 #sauce-img {
-  width: 624px;
-  height: auto;
   margin: 0%;
   padding-top: 0px;
   padding-bottom: 0px;
