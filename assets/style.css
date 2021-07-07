@@ -29,6 +29,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index:1;
 }
 .nav-list {
     font-family: Lato, roboto, sans-serif;
@@ -40,10 +41,12 @@ nav {
     align-items: center;
     line-height: 22px;
     text-align: center;
+    z-index:1;
 }
 .nav-item {
     list-style: none;
     padding-right: 3rem;
+    z-index:1;
 }
 .nav-item a {
     text-decoration: none;
@@ -389,6 +392,7 @@ li.recipe :first-child {
 form {
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
+    width: 30%;
     line-height: 2rem;
     padding-left: 8rem;
     padding-right: 8rem;
@@ -398,13 +402,12 @@ form {
 input [type=text], select, textarea {
     width: 100%;
     padding: 12px;
-
 }
 
 .flex-container-db {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction:;
         justify-content: space-around;
         align-items: center;
         background: url(../assets/images/burgers.jpg) no-repeat;
