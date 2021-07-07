@@ -295,8 +295,7 @@ i#arrow-up.fas.fa-angle-up {
     color: white;
     align-self: center; 
     padding-bottom: 3rem;
-}
-   
+} 
 button {
       background-color: #FC5200;
       color: white;
@@ -311,19 +310,16 @@ button {
     justify-content: center;
     align-items: center;
 }
-
 button a {
     text-decoration: none;
     color:black;
     font-weight: 900;
 }
-
 button:hover {
     background-color: white;
     color: black;
 }
-
-/* Recipe page*/
+/* Recipe page_____________________*/
 div.container-recipe {
     display:flex;
     flex-wrap: wrap;
@@ -336,7 +332,6 @@ li.recipe :first-child {
     list-style-type: none;
     text-decoration: none;
 }
-
 .ingredient  {
     text-decoration: none;
     font-family: Lato, roboto, sans-serif;
@@ -350,7 +345,6 @@ li.recipe :first-child {
     text-indent: 1em;
     color: black;
 }
-
 .scripttext {
     font-family: 'Dancing Script', lato, sans-serif;
     line-height: normal;
@@ -404,7 +398,6 @@ li.recipe :first-child {
     margin-top: 75px;
     margin-bottom: 75px;
 }
-
 .scriptwhite {
     font-family: 'Dancing Script', lato, sans-serif;
     line-height: 6rem;
@@ -427,7 +420,6 @@ input [type=text], select, textarea {
     width: 100%;
     padding: 12px;
 }
-
 .flex-container2 {
     display: flex;
     flex-wrap: wrap;
@@ -452,7 +444,7 @@ input [type=text], select, textarea {
 }
 
 
-/* __________for medium size screen 602px and down__________*/
+/* _______________for medium size screen 602px and down__________*/
 
 @media screen and (max-width: 602px) {
 .nav-logo:first-child {
@@ -471,16 +463,7 @@ input [type=text], select, textarea {
     padding: 1em 0 1rem 0;  
 }
 div.container-1 {
-    display: flex;
-    background: url(../assets/images/smoke.png) no-repeat;
-    flex-flow: wrap;
-    /* Full height */
-    height: 10%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: space-evenly;
+  margin-top: 4rem;
 }
 div.arrow-down a {
     display: inline-block;
@@ -525,7 +508,7 @@ footer {
 }
 /*Recipe page order list*/
 .recipe-heading {
-    margin-top: 180px;
+    margin-top: 4rem;
     height: 4%;
 }
 .ingredient  {
@@ -547,6 +530,7 @@ footer {
     height: auto;
     margin: 0%;
     justify-content: center;
+    margin-top: ;
   }
 /*where to buy page*/
 .logo-container {
@@ -555,13 +539,13 @@ footer {
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
-    width: 12%;
-    height: 40%;
+    width: 70%;
+    height: 100%;
 }
 img.row {
     padding: 1, 1, 1, 1rem;
-    height: 4%;
-    width: auto;
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 
@@ -575,7 +559,7 @@ img.row {
     align-items: center;
     border-radius: 2%;
     width: 586px;
-    height: 50%; 
+    height: 20%; 
 }
 /*digital book page and form*/
 .scriptwhite {
