@@ -472,6 +472,12 @@ button {
         to {transform: scale(1);
         }
 }
+.book-image {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 /* _______________for medium size screen 602px and down__________*/
 
@@ -561,6 +567,9 @@ footer {
     justify-content: center;
   }
 /*where to buy page*/
+.flex-container {
+    margin-top: 65px;
+}
 .logo-container {
     display: flex;
     flex-wrap: wrap;
@@ -590,13 +599,15 @@ img.row {
     height: 20%; 
 }
 /*digital book page and form*/
+.flex-container2 {
+    margin-top: 65px;
+}
 .transparentbox2 {
     width: 100%;
     align-items: center;
     border-radius: 2%;
     border:2rem, 2em;
     margin-top: 75px;
-    margin-bottom: px;
 }
 .transtext2 {
     font-family: lato, sans-serif;
@@ -620,6 +631,19 @@ img.row {
     align-items: center;
     margin-bottom: 1.5rem;
 }
+/*Thank you Page*/
+.flex-container3 {
+    margin-top: 65px;
+}
+    
+img.book-image {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: white;
+    height: 10%:
+}
+
+
 
 }
 /*____________end of media query*/
