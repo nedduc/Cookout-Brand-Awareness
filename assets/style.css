@@ -258,21 +258,6 @@ i#arrow-up.fas.fa-angle-up {
         to {transform: scale(1);
         }
 }
-
-.logo-container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    width: 100%;
-}
-.row {
-    padding: 1, 1, 1, 1rem;
-    width: auto;
-    padding: 8px 8px 8px 8px;
-}
 .transparentbox {
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
@@ -280,7 +265,7 @@ i#arrow-up.fas.fa-angle-up {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 20%;
     align-items: center;
     border-radius: 2%;
     border:22px, 22px;
@@ -304,11 +289,9 @@ button {
       text-align: center;
       padding: 14px 28px;
       align-items: center;
-      margin-bottom: 6rem;
+      margin-bottom: 4rem;
 }
 .btn {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 button a {
@@ -320,6 +303,18 @@ button:hover {
     background-color: white;
     color: black;
 }
+.logo-container {
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    width: 44%;
+}
+.row {
+    padding: 1, 1, 1, 1rem;
+    padding: 8px 8px 8px 8px;
+}
+
 /* Recipe page_____________________*/
 div.container-recipe {
     display:flex;
@@ -327,7 +322,6 @@ div.container-recipe {
     padding: 5px;
     justify-content: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 li.recipe :first-child {
     list-style-type: none;

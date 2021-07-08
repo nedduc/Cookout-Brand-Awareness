@@ -25,23 +25,24 @@
 <section class="flex-container2">
     <div class="transparentbox2">
         <h1 class="transtext2">Get Your FREE Digital<br>Recipe Book Today!</h1>
-<form><label for="fname">First Name:</label><br>
-    <input type="text" id="fname" placeholder="Your Name"><label for="lname">
-        <br>Last Name:</label><br>
-    <input type="text" id="lname" placeholder="Your Last Name"><br>
+<form action="/action_page.php" method="post"><label for="fname">First Name:</label><br>
+    <input type="text" name="fname" required id="fname" placeholder="Your Name">
+    <label for="lname"><br>Last Name:</label><br>
+    <input type="text" name="lname" required id="lname" placeholder="Your Last Name"><br>
         <label for="email">Enter your email:</label><br>
-    <input type="email" id="email" placeholder="name@gmail.com" name="email"><br><br>
+    <input type="email" name="email" required id="email" placeholder="name@gmail.com" name="email"><br><br>
         <label for="Where did you hear of">How did you hear about the Cookout Brand ?</label><br>
             <select id="how" name="how">
                 <option value=“Friend”>Friend</option>
                 <option value=“Radio”>Radio</option>
                 <option value=“Local”>Local Store</option>
-        </select><br><br>
+            </select><br><br>
      <label for="subject">Anything you would like to add ?</label><br>
-<textarea id="subject" name="subject" placeholder="Write something..."></textarea>
-    <div class="btn"><button><a href="thank-you.html" target="_blank" rel="noopener"
-    alt="retailer e-shop link" aria-label="takes you to retailers e-shop website">Please send Recipe Book</button>
+<textarea id="subject" name="subject" placeholder="Write something..."></textarea><br>
+<input type="submit" value="Submit"><a href="thank-you.html" target="_self" rel="noopener"
+alt="submit and send e-book" aria-label="submits form and takes you to thank you page">
         </a>
+</form>
     </div></div>
     <div class="text-container2"><h1 class="scriptwhite">Cook to perfection with Cookout.<br>Making Outdoor Cooking Magic!</h1></div>
     </div>
