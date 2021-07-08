@@ -4,7 +4,8 @@ Cookout is a brand that as been estabilished since 1984 it has gone through two 
 
 I hope this website will inspire people to get cooking outdoors and use the Cookout brand while doing so. Keeping with the brand colors and theme an website that is easy to navigate and not taxing on the user.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://nedduc.github.io/Cookout-Brand-Awareness/)
+Adobe Xd wireframe link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
 
 ## Features 
 
