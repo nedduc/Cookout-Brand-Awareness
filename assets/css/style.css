@@ -376,7 +376,6 @@ li.recipe :first-child {
     justify-content: space-around;
     align-items: center;
 }
-
 .transparentbox2 {
     background: rgba(0, 0, 0, 0.7);
     opacity: .9;
