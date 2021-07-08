@@ -73,7 +73,7 @@ li.nav-logo a {
 /*containers & sections*/
 div.container-1 {
     display: flex;
-    background: url(../assets/images/smoke.png) no-repeat;
+    background: url(../images/smoke.png) no-repeat;
     flex-flow: wrap;
     /* Full height */
     height: 100%;
@@ -241,7 +241,7 @@ i#arrow-up.fas.fa-angle-up {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: url(../assets/images/burgers.jpg) no-repeat;
+    background: url(../images/burgers.jpg) no-repeat;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -375,22 +375,6 @@ li.recipe :first-child {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: url(../assets/images/steak.jpg) no-repeat;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-/*animates zoom effect on loading page from W3s*/
-    animation-name: hero-zoom;
-    animation-duration: 1.3s;
-    animation-fill-mode: forwards; 
-}
-/*create a zoom effect*/
-@keyframes hero-zoom  {
-    from{
-        transform: scale(.8);
-    }
-        to {transform: scale(1);
-        }
 }
 
 .transparentbox2 {
@@ -643,7 +627,7 @@ img.book-image {
     padding-top: 1rem;
     padding-bottom: 2rem;
     color: white;
-    height: 10%:
+    height: 10%;
 }
 
 
