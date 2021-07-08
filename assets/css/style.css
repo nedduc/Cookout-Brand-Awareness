@@ -369,12 +369,28 @@ li.recipe :first-child {
     text-align: center;
     padding-top: 4%;
 }
-/*====digital book order page====*/
+/*====digital book order====*/
 .flex-container2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    background: url(../images/steak.jpg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+/*animates zoom effect on loading page from W3s*/
+    animation-name: hero-zoom;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards; 
+}
+/*create a zoom effect*/
+@keyframes hero-zoom  {
+    from{
+        transform: scale(.8);
+    }
+        to {transform: scale(1);
+        }
 }
 .transparentbox2 {
     background: rgba(0, 0, 0, 0.7);
