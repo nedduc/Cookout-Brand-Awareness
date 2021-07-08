@@ -24,16 +24,13 @@ h5 {
     text-align: center;
 }
 /*naviagtion links*/
-.nav-div {
-    
-}
 nav {
     background-color: rgb(211, 207, 207);
     overflow: hidden;
     position: fixed;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     top: 0;
     width: 100%;
     float: inline-start;
@@ -66,7 +63,6 @@ nav {
 .nav-logo:first-child {
     list-style: none;
     text-decoration: none;
-    flex: 3;
 }
 
 li.nav-logo a {
