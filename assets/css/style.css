@@ -5,12 +5,13 @@ body {
 font-family: Lato, roboto, sans-serif;
 font-weight: 300;
 color: black;
+margin: 0;
 }
 /* headings and logo */
 header {
 height: 75px;
 }
-
+    
 h1, h2, p {
 font-family: lato, sans-serif;
 color: black;
@@ -478,15 +479,6 @@ padding-bottom: 6rem;
 color: white;
 text-shadow: 2px 2px 4px #000000;
 }
-/* _______________for medium size screen 320px and down__________*/
-
-@media screen and (max-width: 320px) {
-.nav-logo:first-child {
-list-style: none;
-text-decoration: none;
-text-align: center;
-}
-
 /* _______________for medium size screen 602px and down__________*/
 
 @media screen and (max-width: 602px) {
