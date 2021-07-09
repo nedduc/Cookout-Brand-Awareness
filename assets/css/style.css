@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Roboto&display=swap');
 ;
+
 body {
     font-family: Lato, roboto, sans-serif;
     font-weight: 300;
@@ -25,12 +26,12 @@ h5 {
     text-align: center;
 }
 /*naviagtion links*/
+
 .nav-list {
     background-color: rgb(211, 207, 207);
     margin: 0;
     padding: 1rem 0;
     display: flex;
-    justify-content: flex-end;
     font-family: Lato, roboto, sans-serif;
     font-weight: 700;
     height: 100%;
@@ -41,7 +42,8 @@ h5 {
 }
 .nav-item {
     list-style: none;
-    padding-right: 2rem;
+    padding-right: 3rem;
+    padding-left: 2rem;
     z-index:1;
 }
 .nav-item a {
@@ -63,9 +65,6 @@ li.nav-logo a {
     list-style: none;
     text-decoration: none;
 }
-/*.nav-item > a:active {
-    background-color: blueviolet;
-}*/
 
 /*containers & sections*/
 div.container-1 {
@@ -267,8 +266,8 @@ i#arrow-up.fas.fa-angle-up {
     align-items: center;
     border-radius: 2%;
     border:22px, 22px;
-    margin-top: 65px;
-    margin-bottom: 70px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 .transtext {
     font-family: lato, sans-serif;
@@ -488,19 +487,29 @@ button {
     list-style: none;
     justify-content: center;
 }
+
 .nav-list {
-    margin: 0 0;
     line-height: 28px;
-    padding: 2em 0 2rem 0;
+    padding: 1em 0 1rem 0;
+    flex-direction: column ;
     justify-content: center;
+
 }
 .nav-item {
     list-style: none;
     align-items: center;
-    padding: 1em 0 1rem 0;  
+    line-height: .3rem;
+    padding: 1em 0 1rem 0;
+;  
+}
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+    list-style: none;
+    text-decoration: none;
 }
 div.container-1 {
-  margin-top: 4rem;
+  margin-top: 9rem;
 }
 div.arrow-down a {
     display: inline-block;
@@ -509,10 +518,12 @@ div.arrow-down a {
     color: white;
     padding-top: 10px;
  }
-.recipe-heading {
+div.recipe-heading {
     background-color: #FC5200;
     color: white;
     border-radius: 8px;
+    margin-top: 9rem;
+    
   }
 img.circle {
     border-radius: 0%;
@@ -539,9 +550,9 @@ footer {
     scroll-behavior: smooth;
   }
   .logo-container {
-        display:flex;
-        justify-content: center;
-        width: 10%;
+    display:flex;
+    justify-content: center;
+    width: 10%;
 }
 /*Recipe page order list*/
 .recipe-heading {
@@ -568,9 +579,12 @@ footer {
     margin: 0%;
     justify-content: center;
   }
+  div.box-5 {
+    align-items: center;
+  }
 /*where to buy page*/
 .flex-container {
-    margin-top: 65px;
+    margin-top: 9rem;
 }
 .logo-container {
     display: flex;
