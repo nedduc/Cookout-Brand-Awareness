@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cookout Brand for Barbecues">
     <meta name="keywords" content="cookout, bbq, barbecues, cooking, outdoors">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Cookout</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
          </a>
             <nav>
                 <ul class="nav-list">
-                    <li class="nav-logo"><a href="index.html"><img src="assets/images/Cookout-text-logo.png" alt="Cookout logo" class="logo"></li></a>
+                    <li class="nav-item"><a href="index.html"><img src="assets/images/Cookout-text-logo.png" alt="Cookout logo" class="logo"></li></a>
                     <li class="nav-item"><a href="index.html">Home</li></a>
                     <li class="nav-item"><a href="where.html">Where to Buy</li></a>
                    <li class="nav-item"><a href="recipe.html">Recipe</li></a>
@@ -24,8 +24,9 @@
 <!--section how to get free digital recipe book-->
 <section class="flex-container2">
     <div class="transparentbox2">
-        <h1 class="transtext2">Get Your FREE Digital<br>Recipe Book Today!</h1>
-<form action="/action_page.php" method="post"><label for="fname">First Name:</label><br>
+        <fieldset><legend><h1 class="transtext2">Get Your FREE Digital<br>Recipe Book Today!</h1></legend>
+<form action="thank-you.html">
+    <label for="fname">First Name:</label><br>
     <input type="text" name="fname" required id="fname" placeholder="Your Name">
     <label for="lname"><br>Last Name:</label><br>
     <input type="text" name="lname" required id="lname" placeholder="Your Last Name"><br>
@@ -42,6 +43,7 @@
 <input type="submit" value="Submit"><a href="thank-you.html" target="_self" rel="noopener"
 alt="submit and send e-book" aria-label="submits form and takes you to thank you page">
         </a>
+    </fieldset>
 </form>
     </div></div>
     <div class="text-container2"><h1 class="scriptwhite">Cook to perfection with Cookout.<br>Making Outdoor Cooking Magic!</h1></div>
