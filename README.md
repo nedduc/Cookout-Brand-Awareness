@@ -2,7 +2,9 @@
 
 Cookout is a brand that as been estabilished since 1984 it has gone through two new branding updates but has never had a website of it's own. It's a McLoughlinsRS own brand one of Ireland largest retail distributors of Gardening Homewares and DIY in Ireland. Cookout is sold on the B2B website but there is no information background about the product that can be shared with the customer via it's own site or being shared on retailers websites via a link. Therfore creating more brand awarness and creating customer awareness and loyalty.  
 
-I hope this website will inspire people to get cooking outdoors and use the Cookout brand while doing so. Keeping with the brand colors and theme an website that is easy to navigate and not taxing on the user.
+I hope this website will inspire people to get cooking outdoors and use the Cookout brand while doing so. Keeping with the brand colors and theme a website that is easy to navigate and not taxing on the user.
+
+
 
 ![Responsice Mockup](https://nedduc.github.io/Cookout-Brand-Awareness/)
 Adobe Xd wireframe link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
@@ -64,35 +66,31 @@ In this section, you should go over the different parts of your project, and des
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- Adding more new products and new recipe ideas
+- Adding more new products and new recipe ideas. Once the user signs up for the recipe book, they are not a cold call anymore
+and can be contacted with new products and more recipe ideas.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+While in the Dev Tools I used the rsponsive tools to view site on iPad and iPhone5 I also opened on my own Samsung 6
+as well as seeing it my iMac. I left one or two items uncentered and this created a nice pause for the eye and flow 
+of reading.(you can get bored travelling in a straight line all the time i.e motorway driving)
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+All my links work to other websites and internal pages. Screen shots of all testing available in Testing folder.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+It has performed the way I wanted it to on different browsers and screen sizes.
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - I have passed all my html pages on W3 HTML Validator and all pages have finally received a document checking completed with no errors or warnings to show. Main errors were rogue tags and alt information added into links that did not need to be there. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - I also used W3 Jigsaw Validator to pass my css file, I had 9 errors and 1 warning which all have been resolved. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+I did not center a heading on the recipe page as I think the page reads better it has a nice flow. White space can be important. 
 
 ## Deployment
 
@@ -102,22 +100,23 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   - Selected source, clicked none, then selected "main". This refers to  Git branch.
   - Scroll back down to Github pages section to get my deployed link.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://nedduc.github.io/Cookout-Brand-Awareness/
 
 
 ## Credits 
 
-Images are from Adobe stock https://stock.adobe.com/uk/, Content I made up. My code was helped along by my Cohort Facilitator Kasia and my mentor Maria Hynes, W3 Schools https://www.w3schools.com/ 
+I would like to thank my Cohort Facilitator Kasia and my mentor Maria Hynes, two very kind and patient people.
+My code was helped along by W3 Schools https://www.w3schools.com/ 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
+- The text for the website was taken from access in work. Recipe courtesy of BBC Good Food Guide.
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from Adobe stock
+- The main photos used on each page are from Adobe stock. Product images are from work.
 - The images used for the form page taken from open source site Unsplash https://unsplash.com/s/photos/bbq
 
 
