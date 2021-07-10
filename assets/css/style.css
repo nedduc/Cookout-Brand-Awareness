@@ -186,7 +186,7 @@ scroll-behavior: smooth;
 .clickable:hover {
 color: black;
 }
-#black-text {
+.black-text {
 font-family: lato, sans-serif;
 color: black;
 }
