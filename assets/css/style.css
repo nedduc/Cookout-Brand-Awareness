@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Roboto&display=swap');
-;
+
 
 body {
 font-family: Lato, roboto, sans-serif;
@@ -106,7 +106,6 @@ color: #FC5200;
 }
 #circle-logo {
 display: inline-block;
-position: center;
 }
 div.container-2 {
 display:flex;
@@ -137,14 +136,12 @@ padding: 25px;
 }
 
 div#instant-image.box-4 {
-align-self: center;
-flex: -5;
+align-items: center;
 }
 img.circle {
 border-radius: 50%;
 border: 4px solid #FC5200;
 height: 100%;
-position: -40px;
 }	
 div.container-4 {
 display:flex;
@@ -170,6 +167,9 @@ padding: 4px 15px 4px 15px;
 border-radius: 8px;
 transition-duration: 1s;
 scroll-behavior: smooth;
+}
+div {
+    padding: 18px;
 }
 .heading {
 background-color: #FC5200;
@@ -205,7 +205,7 @@ text-align: left;
 }
 ul.social-networks li {
 display: inline-block;
-font-size: 16;
+font-size: 16px;
 padding: 6px;
 }
 i#arrow-up.fas.fa-angle-up::before {
@@ -265,7 +265,7 @@ justify-content: center;
 width: 22%;
 align-items: center;
 border-radius: 2%;
-border:22px, 22px;
+border:22px 22px;
 margin-top: 75px;
 margin-bottom: 75px;
 }
@@ -484,16 +484,14 @@ text-shadow: 2px 2px 4px #000000;
 }
 
 
-/* _______________for i pad medium size screen 768px and down__________*/
+/* _______________for ipad medium size screen 768px and down__________*/
 
 @media screen and (max-width: 768px) {
 .nav-item:first-child a {
     text-decoration: none;
 }
 .nav-item:first-child {
-list-style: none;
-text-decoration: none;
-align-items: center;
+    align-items: center;
 }
 .nav-list {
 line-height: 28px;
@@ -503,6 +501,7 @@ justify-content: center;
 }
 .nav-item {
 list-style: none;
+font-size: 18px;
 align-items: center;
 line-height: .3rem;
 padding: 1em 0 1rem 0;
@@ -532,7 +531,6 @@ text-align: center;
 }
 footer {
 display: inline-block;
-width: 80;
 color: white;
 text-align: center;
 }
@@ -555,7 +553,8 @@ width: 10%;
 /*Recipe page order list*/
 .recipe-heading {
 margin-top: 4rem;
-height: 4%;
+height: 100%;
+text-align: center;
 }
 .ingredient  {
 font-family: Lato, roboto, sans-serif;
@@ -589,7 +588,7 @@ display: flex;
 flex-wrap: wrap;
 text-align: center;
 align-items: center;
-width: 100%;
+width: 70%;
 height: 100%;
 }
 img.row {
@@ -608,8 +607,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 border-radius: 2%;
-width: 100%;
-height: 20%; 
+width: 70%;
 }
 /*digital book page and form*/
 .flex-container2 {
