@@ -18,10 +18,10 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all five pages, the full responsive navigation bar includes links to, Home page, Where to Buy and Recipe page giving someting free to the user in the form a BBQ recipe and digital book to download.
-  - This allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button as its not always a good this to depend on the back button. 
+  - Featured on all five pages, the full responsive navigation bar includes links to, Home page, Where to Buy and Recipe page giving someting free to the user in the form a BBQ recipe and digital book to download. The nav bar was made sticky so that on longer scrolling pages and mobile it was visable at all times.
+  - This allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button as its not always a good thing to depend on. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/nav.pgg)
 
 - __The landing page image__
 
