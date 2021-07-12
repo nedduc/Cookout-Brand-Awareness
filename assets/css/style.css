@@ -10,8 +10,7 @@ margin: 0;
 /* headings and logo */
 header {
 height: 75px;
-}
-    
+} 
 h1, h2, p {
 font-family: lato, sans-serif;
 color: black;
@@ -25,8 +24,13 @@ letter-spacing: 1px;
 line-height: 1rem;
 text-align: center;
 }
-/*naviagtion links*/
-
+/* naviagtion links */
+nav {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+}
 .nav-list {
 background-color: rgb(211, 207, 207);
 margin: 0;
@@ -34,7 +38,7 @@ padding: 1rem 0;
 display: flex;
 font-family: Lato, roboto, sans-serif;
 font-weight: 700;
-height: 100%;
+width: 100%;
 align-items: center;
 line-height: 22px;
 text-align: center;
@@ -42,7 +46,7 @@ z-index:1;
 }
 .nav-item {
 list-style: none;
-padding-right: 3rem;
+padding-right: 2rem;
 padding-left: 2rem;
 z-index:1;
 }
@@ -51,8 +55,8 @@ text-decoration: none;
 color: black;
 }
 .nav-item a:hover {
-    color: #FC5200;
-    border-bottom: 1px solid #FC5200;
+color: #FC5200;
+border-bottom: 1px solid #FC5200;
 }
 .nav-item:first-child {
 margin-right: auto;
@@ -60,13 +64,11 @@ margin-left: 2rem;
 list-style: none;
 text-decoration: none;
 }
-
 li.nav-logo a {
 list-style: none;
 text-decoration: none;
 }
-
-/*containers & sections*/
+/* containers & sections */
 div.container-1 {
 display: flex;
 background: url(../images/smoke.png) no-repeat;
@@ -134,7 +136,6 @@ display:inline-block;
 align-items: center;
 padding: 25px;
 }
-
 div#instant-image.box-4 {
 align-items: center;
 }
@@ -169,7 +170,7 @@ transition-duration: 1s;
 scroll-behavior: smooth;
 }
 div {
-    padding: 18px;
+padding: 18px;
 }
 .heading {
 background-color: #FC5200;
@@ -193,7 +194,7 @@ color: black;
 #text h1, p {
 color: white;
 }
-/*footer*/
+/* footer */
 footer {
 width: 100%;
 align-self: center;
@@ -232,22 +233,22 @@ i#arrow-up.fas.fa-angle-up {
 color: black;
 font-size: 400%;
 }
-/* Where to Buy page _______________________*/
+/* Where to Buy page ________*/
 .flex-container {
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content:space-around;
 align-items: center;
 background: url(../images/burgers.jpg) no-repeat;
 height: 100%;
 background-position: center;
 background-size: cover;
-/*animates zoom effect on loading page from W3s*/
+/* animates zoom effect on loading page from W3s */
 animation-name: hero-zoom;
 animation-duration: 1.3s;
 animation-fill-mode: forwards; 
 }
-/*create a zoom effect*/
+/* create a zoom effect */
 @keyframes hero-zoom  {
 from{
     transform: scale(.8);
@@ -280,13 +281,13 @@ align-self: center;
 padding-bottom: 3rem;
 } 
 button {
-    background-color: #FC5200;
-    color: white;
-    border: .2rem dotted white;
-    text-align: center;
-    padding: 14px 28px;
-    align-items: center;
-    margin-bottom: 3rem;
+background-color: #FC5200;
+color: white;
+border: .2rem dotted white;
+text-align: center;
+padding: 14px 28px;
+align-items: center;
+margin-bottom: 3rem;
 }
 .btn {
 align-items: center;
@@ -304,22 +305,16 @@ color: black;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
-justify-content:space-between;
+justify-content:space-evenly;
 align-items: center;
-padding-right: 2rem;
-padding-left: 2rem;
-padding-bottom: 2rem;
-width: 33%;
+width: 50%;
 }
 .row {
 align-items: center;
-padding-bottom: 1rem;
-padding-top: 1rem;
-padding-right: 0rem;
-height: 20%;
-width: 50%;
+padding:1rem 1rem 1rem 1rem;
+height: 50%;
+width: 20%;
 }
-
 /* Recipe page_____________________*/
 div.container-recipe {
 display:flex;
@@ -384,12 +379,12 @@ background: url(../images/steak.jpg) no-repeat;
 height: 100%;
 background-position: center;
 background-size: cover;
-/*animates zoom effect on loading page from W3s*/
+/* animates zoom effect on loading page from W3s */
 animation-name: hero-zoom;
 animation-duration: 1.3s;
 animation-fill-mode: forwards; 
 }
-/*create a zoom effect*/
+/* create a zoom effect */
 @keyframes hero-zoom  {
 from{
     transform: scale(.8);
@@ -429,7 +424,6 @@ text-align: center;
 color: black;
 height: 100%;
 }
-
 form {
 font-family: Lato, roboto, sans-serif;
 font-weight: 900;
@@ -453,7 +447,7 @@ padding: 14px 28px;
 align-items: center;
 margin-bottom: 6rem;
 }
-/*_____Thank you page________*/
+/* Thank you page */
 .flex-container3 {
 display: flex;
 flex-wrap: wrap;
@@ -463,12 +457,12 @@ background: url(../images/beans.jpg) no-repeat;
 height: 100%;
 background-position: center;
 background-size: cover;
-/*animates zoom effect on loading page from W3s*/
+/* animates zoom effect on loading page from W3s */
 animation-name: hero-zoom;
 animation-duration: 1.3s;
 animation-fill-mode: forwards; 
 }
-/*create a zoom effect*/
+/* create a zoom effect */
 @keyframes hero-zoom  {
 from{
     transform: scale(.8);
@@ -483,19 +477,19 @@ color: white;
 text-shadow: 2px 2px 4px #000000;
 }
 
-
 /* _______________for ipad medium size screen 768px and down__________*/
-
 @media screen and (max-width: 768px) {
-.nav-item:first-child a {
-    text-decoration: none;
-}
+
 .nav-item:first-child {
-    align-items: center;
+text-decoration: none;   
+margin-right: 0;
+margin-left:0;
+list-style: none;
+text-decoration: none;
 }
 .nav-list {
 line-height: 28px;
-padding: 1em 0 1rem 0;
+padding: 1rem 0 1rem 0;
 flex-direction: column ;
 justify-content: center;
 }
@@ -504,7 +498,7 @@ list-style: none;
 font-size: 18px;
 align-items: center;
 line-height: .3rem;
-padding: 1em 0 1rem 0;
+padding: 1rem 0 1rem 0;
 }
 div.container-1 {
 margin-top: 9rem;
@@ -550,7 +544,7 @@ display:flex;
 justify-content: center;
 width: 10%;
 }
-/*Recipe page order list*/
+/* Recipe page order list */
 .recipe-heading {
 margin-top: 4rem;
 height: 100%;
@@ -579,23 +573,17 @@ justify-content: center;
 div.box-5 {
 align-items: center;
 }
-/*where to buy page*/
+/* where to buy page */
 .flex-container {
 margin-top:9rem;
 }
 .logo-container {
-display: flex;
-flex-wrap: wrap;
 text-align: center;
-align-items: center;
-width: 70%;
-height: 100%;
+width: 100%;
 }
 img.row {
-padding: 3rem 1rem 3rem 1rem;
-height: 100%;
-width: 100%;
-text-align: center;
+height: 50%;
+width: 75%;
 justify-items: center;
 }
 .transparentbox {
@@ -635,7 +623,7 @@ padding-bottom: 3rem;
 } 
 .scriptwhite {
 font-family: 'Dancing Script', lato, sans-serif;
-line-height: 2rem;
+line-height: 4rem;
 font-size: 2rem;
 color: black;
 height: 100%;
@@ -658,6 +646,5 @@ max-width: 100%;
 width: 100%;
 height: auto !important;
 }
-
 }
 /*____________end of media query*/

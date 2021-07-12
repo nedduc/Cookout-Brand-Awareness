@@ -21,22 +21,22 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all five pages, the full responsive navigation bar includes links to, Home page, Where to Buy and Recipe page giving someting free to the user in the form a BBQ recipe and digital book to download. The nav bar was made sticky so that on longer scrolling pages and mobile it was visable at all times.
   - This allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button as its not always a good thing to depend on. 
 
-![Nav Bar](assets/images/nav.pgg)
+![Nav Bar](assets/images/nav.png)
 
 - __The landing page image__
 
   - Main landing page includes a light intro and brand logo, background image allows brand logo to stand out off page. 
-  - Product images are shown on this page to show what is on offer from the brand. Information on products is short and concise.
+  - Product images are shown on this page to show category offering from the brand. Information on products is short and concise.
   - This page is long, so I have included click down and up buttons. 
   - Social media icons are only included on the first page, otherwise I feel the user will go down rabbit hole. I want to keep the user on website.
-  - On footer the address on supplier company exsist and is cliable to be taken to suppliers website.
+  - On footer the address on supplier company exsist and is clickable to be taken to distrubutors website.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/landing.png)
 
 - __Where to Buy__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This page shows the user where to buy the products. 
+  - There is a link included to Retailer E-Shop as the company does not sell directly to consumer. 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
@@ -71,6 +71,7 @@ In this section, you should go over the different parts of your project, and des
 
 - Adding more new products and new recipe ideas. Once the user signs up for the recipe book, they are not a cold call anymore
 and can be contacted with new products and more recipe ideas.
+- Links can be added to 'Where to Buy' page on logo's to take user directly to purchse page for product.
 
 ## Testing 
 
