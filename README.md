@@ -6,7 +6,8 @@ I hope this website will inspire people to get cooking outdoors and use the Cook
 
 
 
-![Responsice Mockup](https://nedduc.github.io/Cookout-Brand-Awareness/)
+
+![How site would look](assets/images/Screenshot.png)
 Adobe Xd wireframe link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
 
 ## Features 
@@ -90,17 +91,32 @@ It has performed the way I wanted it to on different browsers and screen sizes.
 
 ### Unfixed Bugs
 
-I did not center a heading on the recipe page as I think the page reads better it has a nice flow. White space can be important. 
+I did not center a heading on the recipe page as I think the page reads better, it has a nice flow. White space can be important. 
 
 ## Deployment
 
 ###In order for someone to access I must deploy site to Github from Gitpod the container-based development platform I have been using: 
   - Make sure that I have "git added", "git commit -m" & "git push" to Github
-  - Once in Github, I selected in my repositories the one that I wanted to deloy, select settings scroll down to the github pages section heading.
-  - Selected source, clicked none, then selected "main". This refers to  Git branch.
+  - Once in Github, I navigated to my sites repository - https://github.com/nedduc
+  - Under my repository name, to the right of the screen click  Settings.
+  - In the left sidebar, click Pages.
+  - Under “GitHub Pages”, use the None or Branch drop-down menu and select a publishing source.
+  - Optionally, use the drop-down menu to select a folder for my publishing source.
+  - Waited for page to refresh.
   - Scroll back down to Github pages section to get my deployed link.
 
 The live link can be found here - https://nedduc.github.io/Cookout-Brand-Awareness/
+
+# Cloning a Repository
+
+###I can clone my repository from GitHub to create a local copy on my computer and sync between the two locations: 
+  - On GitHub, navigate to the main page of the repository.
+  - Above the list of files, click  Code.
+  - To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . To clone a repository using GitHub CLI, click Use GitHub CLI, then click.
+  - Open Terminal.
+  - Change the current working directory to the location where you want the cloned directory.
+  - Type git clone, and then paste the URL you copied earlier. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  - Press Enter to create your local clone.
 
 
 ## Credits 
@@ -110,7 +126,7 @@ My code was helped along by W3 Schools https://www.w3schools.com/
 
 ### Content 
 
-- The text for the website was taken from access in work. Recipe courtesy of BBC Good Food Guide.
+- The text for the website was taken from a data base in work. Recipe courtesy of BBC Good Food Guide.
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
@@ -121,20 +137,3 @@ My code was helped along by W3 Schools https://www.w3schools.com/
 
 
 ______________________________________________________________________________________________________________
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
- 
