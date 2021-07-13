@@ -59,34 +59,28 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](assets/images/footer.png)
 
-- __Gallery__
+- __Form for Digital Book__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - Allowing the user to recieve a free digital recipe book connected with Barbeques. The user will be asked to submit their full name and email address. How they heard abou the brand. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Form for free Recipe Book](assets/images/book-form.png)
 
 ### Features Left to Implement
 
 - Adding more new products and new recipe ideas. Once the user signs up for the recipe book, they are not a cold call anymore
 and can be contacted with new products and more recipe ideas.
 - Links can be added to 'Where to Buy' page on logo's to take user directly to purchse page for product.
+- Add a little background softly playing cowboy music.
 
 ## Testing 
 
 While in the Dev Tools I used the rsponsive tools to view site on iPad and iPhone5 I also opened on my own Samsung 6
 as well as seeing it my iMac. I left one or two items uncentered and this created a nice pause for the eye and flow 
-of reading.(you can get bored travelling in a straight line all the time i.e motorway driving)
+of reading.(you can get bored travelling in a straight line all the time i.e motorway driving) I also sent to two alternative phone.
 
-All my links work to other websites and internal pages. Screen shots of all testing available in Testing folder.
+All my links work to other websites opening in new windows not to draw the user away The links open on themselves. Screen shots of all testing available in Testing folder.
 
-It has performed the way I wanted it to on different browsers and screen sizes.
+It has performed the way I wanted it to on different browsers and screen sizes. Quite amazed at the power of flexbox from the little information I know baout it. However there are a few things I would fix, for example making more real estate on mobile screen.
 
 ### Validator Testing 
 
@@ -122,7 +116,6 @@ My code was helped along by W3 Schools https://www.w3schools.com/
 ### Content 
 
 - The text for the website was taken from a data base in work. Recipe courtesy of BBC Good Food Guide.
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
