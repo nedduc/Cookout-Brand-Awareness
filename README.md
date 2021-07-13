@@ -44,10 +44,13 @@ In this section, you should go over the different parts of your project, and des
 
 - __Recipe__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - Bright image of freshly made sauce and recipe to follow.
+  - Nothing like getting something for free even if its a digital recipe book or free recipe to make sauce.
+  - Maybe the next time that buyer goes into shop they remember the free 'Cookout Recipe they recived and digital book'
+  - By this stage the users has seen all three version of the Cookout logo.
+  - Crips clean and uncluttered. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Recipe](assets/images/recipe-page.png)
 
 - __The Footer__ 
 
