@@ -11,10 +11,8 @@ body {
 }
 .active {
     font-size:110%;
-    background-color:#FC5200;
-    border-radius: 4px;
-    opacity: 80%;
-    padding: 0px 1px;
+    border-radius: 50%;
+    border: 3px solid #FC5200;
 }
 
 /* headings and logo */
