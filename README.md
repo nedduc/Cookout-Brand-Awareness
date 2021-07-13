@@ -20,26 +20,27 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured on all five pages, the full responsive navigation bar includes links to, Home page, Where to Buy and Recipe page giving someting free to the user in the form a BBQ recipe and digital book to download. The nav bar was made sticky so that on longer scrolling pages and mobile it was visable at all times.
   - This allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button as its not always a good thing to depend on. 
-  - Also added an active selector to each on the header when on page, like a felt tip pen mark.
+  - Also added an active selector to each page on the navigation bar for users to naviagte.
 
 ![Nav Bar](assets/images/nav.png)
 
 - __The landing page image__
 
   - Main landing page includes a light intro and brand logo, background image allows brand logo to stand out off page. 
+  - Just to note, I used the three versions on the Cookout logo on this website for brand awareness and make impact on user.
   - Product images are shown on this page to show category offering from the brand. Information on products is short and concise.
   - This page is long, so I have included click down and up buttons. 
   - Social media icons are only included on the first page, otherwise I feel the user will go down rabbit hole. I want to keep the user on website.
-  - On footer the address on supplier company exsist and is clickable to be taken to distrubutors website.
+  - On footer the address and telephone of distributor exsist and is clickable to be taken to distrubutors website.
 
 ![Landing Page](assets/images/landing.png)
 
 - __Where to Buy__
 
-  - This page shows the user where to buy the products. 
-  - There is a link included to Retailer E-Shop as the company does not sell directly to consumer. 
+  - This page shows the user where to buy the products. Logo's of stores are listed here. Links could be included to retailers website were product is sold. 
+  - There is a link included to Retail distributors E-Shop as the company does not sell directly to consumer. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Where to Buy](assets/images/were-to-buy-page.png)
 
 - __Recipe__
 
