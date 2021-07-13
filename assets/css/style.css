@@ -2,662 +2,766 @@
 
 
 body {
-font-family: Lato, roboto, sans-serif;
-font-weight: 300;
-color: black;
-width: 100%;
-height: 100%;
+    font-family: Lato, roboto, sans-serif;
+    font-weight: 300;
+    color: black;
+    width: 100%;
+    height: 100%;
 }
-html,body
-{
+
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
+
 /* headings and logo */
 header {
-height: 75px;
-} 
-h1, h2, p {
-font-family: lato, sans-serif;
-color: black;
-letter-spacing: 1px;
-line-height: 2rem;
+    height: 75px;
 }
+
+h1,
+h2,
+p {
+    font-family: lato, sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
 h5 {
-font-family: lato, sans-serif;
-color: black;
-letter-spacing: 1px;
-line-height: 1rem;
-text-align: center;
+    font-family: lato, sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 1rem;
+    text-align: center;
 }
+
 /* naviagtion links */
 nav {
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
+
 .nav-list {
-background-color: rgb(211, 207, 207);
-margin: 0;
-padding: 1rem 0;
-display: flex;
-font-family: Lato, roboto, sans-serif;
-font-weight: 700;
-width: 100%;
-align-items: center;
-line-height: 22px;
-text-align: center;
-z-index:1;
+    background-color: rgb(211, 207, 207);
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    font-family: Lato, roboto, sans-serif;
+    font-weight: 700;
+    width: 100%;
+    align-items: center;
+    line-height: 22px;
+    text-align: center;
+    z-index: 1;
 }
+
 .nav-item {
-list-style: none;
-padding-right: 2rem;
-padding-left: 2rem;
-z-index:1;
+    list-style: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    z-index: 1;
 }
+
 .nav-item a {
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    color: black;
 }
+
 .nav-item a:hover {
-color: #FC5200;
-border-bottom: 1px solid #FC5200;
+    color: #FC5200;
+    border-bottom: 1px solid #FC5200;
 }
+
 .nav-item:first-child {
-margin-right: auto;
-margin-left: 2rem;
-list-style: none;
-text-decoration: none;
+    margin-right: auto;
+    margin-left: 2rem;
+    list-style: none;
+    text-decoration: none;
 }
+
 li.nav-logo a {
-list-style: none;
-text-decoration: none;
-}
-nav a:active {
-    color: prink;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* containers & sections */
 div.container-1 {
-display: flex;
-background: url(../images/smoke.png) no-repeat;
-flex-flow: wrap;
-/* Full height */
-height: 100%;
-/* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-justify-content: space-evenly;
+    display: flex;
+    background: url(../images/smoke.png) no-repeat;
+    flex-flow: wrap;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
 }
+
 div#text.box-1 {
-display: inline-block;
-font-size: 118%;
-justify-content: center;
-align-self: center;
-padding-top: 3rem;
+    display: inline-block;
+    font-size: 118%;
+    justify-content: center;
+    align-self: center;
+    padding-top: 3rem;
 }
+
 div.box-2 {
-display: inline-block;
-width: auto;
-align-self: center;
+    display: inline-block;
+    width: auto;
+    align-self: center;
 }
+
 div.arrow-down a {
-display: inline-block;
-align-self: flex-end;
-font-size: 300%;
-color: white;
-padding-top: 450px;
-transition-duration: 1s;
-scroll-behavior: smooth;
+    display: inline-block;
+    align-self: flex-end;
+    font-size: 300%;
+    color: white;
+    padding-top: 450px;
+    transition-duration: 1s;
+    scroll-behavior: smooth;
 }
+
 div.arrow-down a:hover {
-display: inline-block;
-color: #FC5200;
+    display: inline-block;
+    color: #FC5200;
 }
+
 #circle-logo {
-display: inline-block;
+    display: inline-block;
 }
+
 div.container-2 {
-display:flex;
-padding: 5px;
-justify-content: center;
-justify-content: space-evenly;
-flex-wrap: wrap;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 div.box-3 {
-display:inline-block;
-align-items: center;
-padding: 15px;
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
 }
+
 section.box-3 {
-display:flex;
+    display: flex;
 }
+
 div.container-3 {
-display:flex;
-padding: 5px;
-justify-content: center;
-justify-content: space-evenly;
-flex-wrap: wrap;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 div.box-4 {
-display:inline-block;
-align-items: center;
-padding: 25px;
+    display: inline-block;
+    align-items: center;
+    padding: 25px;
 }
+
 div#instant-image.box-4 {
-align-items: center;
+    align-items: center;
 }
+
 img.circle {
-border-radius: 50%;
-border: 4px solid #FC5200;
-height: 100%;
-}	
+    border-radius: 50%;
+    border: 4px solid #FC5200;
+    height: 100%;
+}
+
 div.container-4 {
-display:flex;
-padding: 5px;
-justify-content: center;
-justify-content: space-evenly;
-flex-wrap: wrap;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 div.box-5 {
-display:inline-block;
-align-items: center;
-padding: 15px;
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
 }
+
 .clickable {
-background-color: #FC5200;
-color: white;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-justify-items: self-start;
-width: auto;
-padding: 4px 15px 4px 15px;
-border-radius: 8px;
-transition-duration: 1s;
-scroll-behavior: smooth;
+    background-color: #FC5200;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-items: self-start;
+    width: auto;
+    padding: 4px 15px 4px 15px;
+    border-radius: 8px;
+    transition-duration: 1s;
+    scroll-behavior: smooth;
 }
+
 div {
-padding: 18px;
+    padding: 18px;
 }
+
 .heading {
-background-color: #FC5200;
-color: white;
-text-align: center;
-display: inline-block;
-justify-items: self-start;
-width: auto;
-padding: 4px 15px 4px 15px;
-border-radius: 8px;
-transition-duration: 1s;
-scroll-behavior: smooth;
+    background-color: #FC5200;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    justify-items: self-start;
+    width: auto;
+    padding: 4px 15px 4px 15px;
+    border-radius: 8px;
+    transition-duration: 1s;
+    scroll-behavior: smooth;
 }
+
 .clickable:hover {
-color: black;
+    color: black;
 }
+
 .black-text {
-font-family: lato, sans-serif;
-color: black;
+    font-family: lato, sans-serif;
+    color: black;
 }
-#text h1, p {
-color: white;
+
+#text h1,
+p {
+    color: white;
 }
+
 /* footer */
 footer {
-width: 100%;
-align-self: center;
-color: white;
-text-align: left;
+    width: 100%;
+    align-self: center;
+    color: white;
+    text-align: left;
 }
+
 .social-networks {
-text-align: left;
+    text-align: left;
 }
+
 ul.social-networks li {
-display: inline-block;
-font-size: 16px;
-padding: 6px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px;
 }
+
 i#arrow-up.fas.fa-angle-up::before {
-color: #FC5200; 
+    color: #FC5200;
 }
+
 .social-networks i {
-font-size: 320%;
-margin: 1%;
-padding: 5%;
-color:black;
+    font-size: 320%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
 }
+
 .box-6 {
-background-color: black;
-padding-left: 33px;
-padding-right: 33px;
-padding-top: 3px;
-padding-bottom: 3px;
-height: auto;
+    background-color: black;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: auto;
 }
+
 div.box-6 a {
-text-decoration: none;
+    text-decoration: none;
 }
+
 i#arrow-up.fas.fa-angle-up {
-color: black;
-font-size: 400%;
+    color: black;
+    font-size: 400%;
 }
+
 /* Where to Buy page ________*/
 .flex-container {
-display: flex;
-flex-wrap:wrap;
-justify-content:space-around;
-flex-direction: row;
-align-items: center;
-background: url(../images/burgers.jpg) no-repeat;
-height: 100%;
-background-position: center;
-background-size: cover;
-/* animates zoom effect on loading page from W3s */
-animation-name: hero-zoom;
-animation-duration: 1.3s;
-animation-fill-mode: forwards; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background: url(../images/burgers.jpg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    /* animates zoom effect on loading page from W3s */
+    animation-name: hero-zoom;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
 }
+
 /* create a zoom effect */
-@keyframes hero-zoom  {
-from{
-    transform: scale(.8);
-}
-    to {transform: scale(1);
+@keyframes hero-zoom {
+    from {
+        transform: scale(.8);
+    }
+
+    to {
+        transform: scale(1);
     }
 }
+
 .transparentbox {
-background: rgba(0, 0, 0, 0.7);
-opacity: .9;
-color: white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-width: 22%;
-align-items: center;
-border-radius: 2%;
-border:22px 22px;
-margin-top: 75px;
-margin-bottom: 75px;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: .9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22%;
+    align-items: center;
+    border-radius: 2%;
+    border: 22px 22px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
+
 .transtext {
-font-family: lato, sans-serif;
-letter-spacing: 1px;
-text-align: center;
-line-height: 2rem;
-font-weight: 900;
-color: white;
-align-self: center; 
-padding-bottom: 3rem;
-} 
+    font-family: lato, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 900;
+    color: white;
+    align-self: center;
+    padding-bottom: 3rem;
+}
+
 button {
-background-color: #FC5200;
-color: white;
-border: .2rem dotted white;
-text-align: center;
-padding: 14px 28px;
-align-items: center;
-margin-bottom: 3rem;
+    background-color: #FC5200;
+    color: white;
+    border: .2rem dotted white;
+    text-align: center;
+    padding: 14px 28px;
+    align-items: center;
+    margin-bottom: 3rem;
 }
+
 .btn {
-align-items: center;
+    align-items: center;
 }
+
 button a {
-text-decoration: none;
-color:black;
-font-weight: 900;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
 }
+
 button:hover {
-background-color: white;
-color: black;
+    background-color: white;
+    color: black;
 }
+
 .logo-container {
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content:space-evenly;
-align-items: center;
-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
 }
+
 .row {
-align-items: center;
-padding:1rem 1rem 1rem 1rem;
-height: 50%;
-width: 20%;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    height: 50%;
+    width: 20%;
 }
+
 /* Recipe page_____________________*/
 div.container-recipe {
-display:flex;
-flex-wrap: wrap;
-padding: 5px;
-justify-content: center;
-justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    justify-content: space-evenly;
 }
+
 li.recipe :first-child {
-list-style-type: none;
-text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
 }
-.ingredient  {
-text-decoration: none;
-font-family: Lato, roboto, sans-serif;
-line-height: 2.5rem;
-color: black;
-text-indent: 1em;
+
+.ingredient {
+    text-decoration: none;
+    font-family: Lato, roboto, sans-serif;
+    line-height: 2.5rem;
+    color: black;
+    text-indent: 1em;
 }
+
 .recipe {
-font-family: Lato, roboto, sans-serif;
-line-height: 2rem;
-text-indent: 1em;
-color: black;
+    font-family: Lato, roboto, sans-serif;
+    line-height: 2rem;
+    text-indent: 1em;
+    color: black;
 }
+
 .scripttext {
-font-family: 'Dancing Script', lato, sans-serif;
-line-height: normal;
-font-size: 3.2rem;
-text-align: center;
-}   
+    font-family: 'Dancing Script', lato, sans-serif;
+    line-height: normal;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
 .clickable-not {
-background-color: #FC5200;
-color: white;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-width: auto;
-padding: 4px 15px 4px 15px;
-border-radius: 8px;
-transition-duration: 1s;
-scroll-behavior: smooth;
+    background-color: #FC5200;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    padding: 4px 15px 4px 15px;
+    border-radius: 8px;
+    transition-duration: 1s;
+    scroll-behavior: smooth;
 }
+
 #sauce-img {
-margin: 0%;
-padding-top: 0px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
+    margin: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
 .black-cookout-logo {
-text-align: center;
-padding-top: 4%;
+    text-align: center;
+    padding-top: 4%;
 }
+
 /*====digital book order====*/
 .flex-container2 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-background: url(../images/steak.jpg) no-repeat;
-height: 100%;
-background-position: center;
-background-size: cover;
-/* animates zoom effect on loading page from W3s */
-animation-name: hero-zoom;
-animation-duration: 1.3s;
-animation-fill-mode: forwards; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../images/steak.jpg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    /* animates zoom effect on loading page from W3s */
+    animation-name: hero-zoom;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
 }
+
 /* create a zoom effect */
-@keyframes hero-zoom  {
-from{
-    transform: scale(.8);
-}
-    to {transform: scale(1);
+@keyframes hero-zoom {
+    from {
+        transform: scale(.8);
+    }
+
+    to {
+        transform: scale(1);
     }
 }
+
 .transparentbox2 {
-background: rgba(0, 0, 0, 0.7);
-opacity: .9;
-color: white;
-display:flex;
-flex-direction:column;
-justify-content: center;
-width: auto;
-height:100%;
-align-items: center;
-border-radius: 2%;
-margin-top: 75px;
-margin-bottom: 75px;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: .9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    border-radius: 2%;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
+
 .transtext2 {
-font-family: lato, sans-serif;
-letter-spacing: 1px;
-text-align: center;
-line-height: 2rem;
-font-weight: 900;
-color: white;
-align-self: center; 
-padding-bottom: 3rem;
-} 
+    font-family: lato, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 900;
+    color: white;
+    align-self: center;
+    padding-bottom: 3rem;
+}
+
 .scriptwhite {
-font-family: 'Dancing Script', lato, sans-serif;
-line-height: 6rem;
-font-size: 4rem;
-text-align: center;
-color: black;
-height: 100%;
+    font-family: 'Dancing Script', lato, sans-serif;
+    line-height: 6rem;
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+    height: 100%;
 }
+
 form {
-font-family: Lato, roboto, sans-serif;
-font-weight: 900;
-width: 75%;
-line-height: 2rem;
-padding-left: 8rem;
-padding-right: 8rem;
-color: white;
-padding: 20px;
+    font-family: Lato, roboto, sans-serif;
+    font-weight: 900;
+    width: 75%;
+    line-height: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: white;
+    padding: 20px;
 }
-input [type=text], select, textarea {
-width: 50%;
-padding: 6px;
+
+input [type=text],
+select,
+textarea {
+    width: 50%;
+    padding: 6px;
 }
+
 button {
-background-color: #FC5200;
-color: white;
-border: .2rem dotted white;
-text-align: center;
-padding: 14px 28px;
-align-items: center;
-margin-bottom: 6rem;
+    background-color: #FC5200;
+    color: white;
+    border: .2rem dotted white;
+    text-align: center;
+    padding: 14px 28px;
+    align-items: center;
+    margin-bottom: 6rem;
 }
+
 /* Thank you page */
 .flex-container3 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-background: url(../images/beans.jpg) no-repeat;
-height: 100%;
-background-position: center;
-background-size: cover;
-/* animates zoom effect on loading page from W3s */
-animation-name: hero-zoom;
-animation-duration: 1.3s;
-animation-fill-mode: forwards; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../images/beans.jpg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    /* animates zoom effect on loading page from W3s */
+    animation-name: hero-zoom;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
 }
+
 /* create a zoom effect */
-@keyframes hero-zoom  {
-from{
-    transform: scale(.8);
-}
-    to {transform: scale(1);
+@keyframes hero-zoom {
+    from {
+        transform: scale(.8);
+    }
+
+    to {
+        transform: scale(1);
     }
 }
+
 .book-image {
-padding-top: 6rem;
-padding-bottom: 6rem;
-color: white;
-text-shadow: 2px 2px 4px #000000;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 /* _______________for ipad medium size screen 768px and down__________*/
 @media screen and (max-width: 768px) {
 
-.nav-item:first-child {
-text-decoration: none;   
-margin-right: 0;
-margin-left:0;
-list-style: none;
-text-decoration: none;
+    .nav-item:first-child {
+        text-decoration: none;
+        margin-right: 0;
+        margin-left: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .nav-list {
+        line-height: 28px;
+        padding: 1rem 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-item {
+        list-style: none;
+        font-size: 18px;
+        align-items: center;
+        line-height: .3rem;
+        padding: 1rem 0;
+    }
+
+    div.container-1 {
+        margin-top: 9rem;
+    }
+
+    div.arrow-down a {
+        display: inline-block;
+        align-self: center;
+        font-size: 300%;
+        color: white;
+        padding-top: 10px;
+    }
+
+    div.recipe-heading {
+        background-color: #FC5200;
+        color: white;
+        border-radius: 8px;
+        margin-top: 9rem;
+    }
+
+    img.circle {
+        border-radius: 0%;
+        align-self: center;
+        border: 4px solid #FC5200;
+        width: 90%;
+        text-align: center;
+    }
+
+    footer {
+        display: inline-block;
+        color: white;
+        text-align: center;
+    }
+
+    .clickable-not {
+        background-color: #FC5200;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: auto;
+        padding: 4px 15px 4px 15px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        width: 10%;
+    }
+
+    /* Recipe page order list */
+    .recipe-heading {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .ingredient {
+        font-family: Lato, roboto, sans-serif;
+        line-height: 1.5rem;
+        font-size: smaller;
+        color: black;
+        text-indent: 1rem;
+    }
+
+    .recipe {
+        font-family: Lato, roboto, sans-serif;
+        line-height: 1.5rem;
+        text-indent: .5rem;
+        font-size: smaller;
+        color: black;
+    }
+
+    #sauce-img {
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        justify-content: center;
+    }
+
+    div.box-5 {
+        align-items: center;
+    }
+
+    /* where to buy page */
+    .flex-container {
+        margin-top: 9rem;
+    }
+
+    .logo-container {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    img.row {
+        height: 50%;
+        width: 55%;
+        justify-items: center;
+    }
+
+    .transparentbox {
+        background: rgba(0, 0, 0, 0.7);
+        opacity: .9;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2%;
+        width: 70%;
+    }
+
+    /*digital book page and form*/
+    .flex-container2 {
+        margin-top: 9rem;
+    }
+
+    .transparentbox2 {
+        width: auto;
+        align-items: center;
+        border-radius: 2%;
+        border: 3rem 3rem;
+        margin-top: 75px;
+    }
+
+    legend {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .transtext2 {
+        font-family: lato, sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 2rem;
+        font-weight: 900;
+        color: white;
+        align-self: center;
+        padding-bottom: 3rem;
+    }
+
+    .scriptwhite {
+        font-family: 'Dancing Script', lato, sans-serif;
+        line-height: 4rem;
+        font-size: 2rem;
+        color: black;
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+
+    button {
+        padding: 14px 28px;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    /*Thank you Page*/
+    .flex-container3 {
+        margin-top: 9rem;
+    }
+
+    img.book-image {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        color: white;
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;
+    }
 }
-.nav-list {
-line-height: 28px;
-padding: 1rem 0;
-flex-direction: column ;
-justify-content: center;
-}
-.nav-item {
-list-style: none;
-font-size: 18px;
-align-items: center;
-line-height: .3rem;
-padding: 1rem 0;
-}
-div.container-1 {
-margin-top: 9rem;
-}
-div.arrow-down a {
-display: inline-block;
-align-self: center;
-font-size: 300%;
-color: white;
-padding-top: 10px;
-}
-div.recipe-heading {
-background-color: #FC5200;
-color: white;
-border-radius: 8px;
-margin-top: 9rem;
-}
-img.circle {
-border-radius: 0%;
-align-self: center;
-border: 4px solid #FC5200;
-width: 90%;
-text-align: center;
-}
-footer {
-display: inline-block;
-color: white;
-text-align: center;
-}
-.clickable-not {
-background-color: #FC5200;
-color: white;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-width: auto;
-padding: 4px 15px 4px 15px;
-border-radius: 8px;
-scroll-behavior: smooth;
-}
-.logo-container {
-display:flex;
-justify-content: center;
-width: 10%;
-}
-/* Recipe page order list */
-.recipe-heading {
-margin-top: 4rem;
-text-align: center;
-}
-.ingredient  {
-font-family: Lato, roboto, sans-serif;
-line-height: 1.5rem;
-font-size: smaller;
-color: black;
-text-indent: 1rem;
-}
-.recipe {
-font-family: Lato, roboto, sans-serif;
-line-height: 1.5rem;
-text-indent: .5rem;
-font-size: smaller;
-color: black;
-}
-#sauce-img {
-width: 100%;
-height: auto;
-margin: 0%;
-justify-content: center;
-}
-div.box-5 {
-align-items: center;
-}
-/* where to buy page */
-.flex-container {
-margin-top:9rem;
-}
-.logo-container {
-text-align: center;
-width: 100%;
-}
-img.row {
-height: 50%;
-width: 75%;
-justify-items: center;
-}
-.transparentbox {
-background: rgba(0, 0, 0, 0.7);
-opacity: .9;
-color: white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border-radius: 2%;
-width: 70%;
-}
-/*digital book page and form*/
-.flex-container2 {
-margin-top: 9rem;
-}
-.transparentbox2 {
-width: auto;
-align-items: center;
-border-radius: 2%;
-border:3rem 3rem;
-margin-top: 75px;
-}
-legend {
-padding: 1rem 1rem 1rem 1rem;
-}
-.transtext2 {
-font-family: lato, sans-serif;
-letter-spacing: 1px;
-text-align: center;
-line-height: 2rem;
-font-weight: 900;
-color: white;
-align-self: center; 
-padding-bottom: 3rem;
-} 
-.scriptwhite {
-font-family: 'Dancing Script', lato, sans-serif;
-line-height: 4rem;
-font-size: 2rem;
-color: black;
-height: 100%;
-padding-bottom: 3rem;
-}
-button {
-padding: 14px 28px;
-align-items: center;
-margin-bottom: 1.5rem;
-}
-/*Thank you Page*/
-.flex-container3 {
-margin-top: 9rem;
-}
-img.book-image {
-padding-top: 1rem;
-padding-bottom: 2rem;
-color: white;
-max-width: 100%;
-width: 100%;
-height: auto !important;
-}
-}
+
 /*____________end of media query*/
