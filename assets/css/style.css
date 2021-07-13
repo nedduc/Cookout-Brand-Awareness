@@ -10,7 +10,11 @@ body {
     margin-right: auto;
 }
 .active {
-    color: #FC5200;
+    font-size:110%;
+    background-color:#FC5200;
+    border-radius: 4px;
+    opacity: 80%;
+    padding: 2px 2px;
 }
 
 /* headings and logo */
@@ -564,7 +568,6 @@ button {
 
 /* _______________for ipad medium size screen 768px and down__________*/
 @media screen and (max-width: 768px) {
-
     .nav-item:first-child {
         text-decoration: none;
         margin-right: 0;
@@ -758,5 +761,3 @@ button {
         height: auto !important;
     }
 }
-
-/*____________end of media query*/
