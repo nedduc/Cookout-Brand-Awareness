@@ -20,6 +20,7 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured on all five pages, the full responsive navigation bar includes links to, Home page, Where to Buy and Recipe page giving someting free to the user in the form a BBQ recipe and digital book to download. The nav bar was made sticky so that on longer scrolling pages and mobile it was visable at all times.
   - This allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button as its not always a good thing to depend on. 
+  - Also added an active selector to each on the header when on page, like a felt tip pen mark.
 
 ![Nav Bar](assets/images/nav.png)
 
@@ -92,7 +93,8 @@ It has performed the way I wanted it to on different browsers and screen sizes.
 
 ### Unfixed Bugs
 
-I did not center a heading on the recipe page as I think the page reads better, it has a nice flow. White space can be important. 
+I did not center a heading on the recipe page as I think the page reads better, it has a nice flow. White space can be important.
+Unfixed bug was a user agent stylesheet that I believe is in chrome. 
 
 ## Deployment
 
@@ -108,21 +110,9 @@ I did not center a heading on the recipe page as I think the page reads better, 
 
 The live link can be found here - https://nedduc.github.io/Cookout-Brand-Awareness/
 
-# Cloning a Repository
-
-###I can clone my repository from GitHub to create a local copy on my computer and sync between the two locations: 
-  - On GitHub, navigate to the main page of the repository.
-  - Above the list of files, click  Code.
-  - To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . To clone a repository using GitHub CLI, click Use GitHub CLI, then click.
-  - Open Terminal.
-  - Change the current working directory to the location where you want the cloned directory.
-  - Type git clone, and then paste the URL you copied earlier. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-  - Press Enter to create your local clone.
-
-
 ## Credits 
 
-I would like to thank my Cohort Facilitator Kasia and my mentor Maria Hynes, two very kind and patient people.
+I would like to thank my Cohort Facilitator Kasia and my mentor Maria Hynes, two very kind and patient people. My mentor gave me some great advice.
 My code was helped along by W3 Schools https://www.w3schools.com/ 
 
 ### Content 
