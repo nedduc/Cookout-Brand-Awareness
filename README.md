@@ -57,7 +57,7 @@ In this section, you should go over the different parts of your project, and des
   - The footer section includes links to the relevant social media sites for the Supplier of the brand 'Cookout'. The links will open to a new tab to allow easy navigation for the user. 
   - Social media icons are only on main index.html page. The idea behind this is to direct the user around the website finding out about the brand.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/footer.png)
 
 - __Gallery__
 
