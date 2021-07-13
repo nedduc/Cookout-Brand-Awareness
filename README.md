@@ -8,13 +8,13 @@ I hope this website will inspire people to get cooking outdoors and use the Cook
 
 
 ![How site would look](assets/images/Screenshot.png)
-Adobe Xd wireframe link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
+Adobe Xd High Fedelity Wireframe Link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
 
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-### Existing Features
+### Features
 
 - __Navigation Bar__
 
@@ -35,6 +35,12 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](assets/images/landing.png)
 
+- __Instant Barbecue__
+
+  - Image styled off page to give more interest, which on mobile changes to centered quare image.
+
+![Landing Page](assets/images/imgage-off-page.png)
+
 - __Where to Buy__
 
   - This page shows the user where to buy the products. Logo's of stores are listed here. Links could be included to retailers website were product is sold. 
@@ -54,7 +60,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for the Supplier of the brand 'Cookout'. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for the retail distributor of the brand 'Cookout'. The links will open to a new tab to allow easy navigation for the user. 
   - Social media icons are only on main index.html page. The idea behind this is to direct the user around the website finding out about the brand.
 
 ![Footer](assets/images/footer.png)
@@ -74,7 +80,7 @@ and can be contacted with new products and more recipe ideas.
 
 ## Testing 
 
-While in the Dev Tools I used the rsponsive tools to view site on iPad and iPhone5 I also opened on my own Samsung 6
+While in the Dev Tools I used the rsponsive tools to view site on iPad and iPhone 5. I also opened on my own Samsung 6
 as well as seeing it my iMac. I left one or two items uncentered and this created a nice pause for the eye and flow 
 of reading.(you can get bored travelling in a straight line all the time i.e motorway driving) I also sent to two alternative phone.
 
@@ -96,7 +102,7 @@ Unfixed bug was a user agent stylesheet that I believe is in chrome.
 
 ## Deployment
 
-###In order for someone to access I must deploy site to Github from Gitpod the container-based development platform I have been using: 
+In order for someone to access I must deploy site to Github from Gitpod the container-based development platform I have been using: 
   - Make sure that I have "git added", "git commit -m" & "git push" to Github
   - Once in Github, I navigated to my sites repository - https://github.com/nedduc
   - Under my repository name, to the right of the screen click  Settings.
@@ -122,6 +128,7 @@ My code was helped along by W3 Schools https://www.w3schools.com/
 
 - The main photos used on each page are from Adobe stock. Product images are from work.
 - The images used for the form page taken from open source site Unsplash https://unsplash.com/s/photos/bbq
+- Cookout logo designed by myself as well as the packaging.
 
 
 ______________________________________________________________________________________________________________
