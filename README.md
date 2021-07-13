@@ -35,11 +35,11 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](assets/images/landing.png)
 
-- __Instant Barbecue__
+- __Instant barbecue__
 
   - Image styled off page to give more interest, which on mobile changes to centered quare image.
 
-![Landing Page](assets/images/imgage-off-page.png)
+![Landing Page image](assets/images/image-off-page.png)
 
 - __Where to Buy__
 
