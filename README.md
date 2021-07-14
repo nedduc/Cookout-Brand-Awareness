@@ -2,7 +2,7 @@
 
 Cookout is a brand that as been estabilished since 1984 it has gone through two new branding updates but has never had a website of it's own. It's a McLoughlinsRS own brand one of Ireland largest retail distributors of Gardening Homewares and DIY in Ireland. Cookout is sold on the B2B website but there is no information background about the product that can be shared with the customer via it's own site or being shared on retailers websites via a link. Therfore creating more brand awarness and creating customer awareness and loyalty.  
 
-I hope this website will inspire people to get cooking outdoors and use the Cookout brand while doing so. Keeping with the brand colors and theme a website that is easy to navigate and not taxing on the user.
+I hope this website will inspire people to get cooking outdoors and use the Cookout brand while doing so. Keeping with the brand colors and theme, a website that is easy to navigate and not taxing on the user.
 
 
 
@@ -37,9 +37,9 @@ In this section, you should go over the different parts of your project, and des
 
 - __Instant barbecue__
 
-  - Image styled off page to give more interest, which on mobile changes to centered quare image.
+  - Image styled off page to give more interest, position was -40px changes to centered square image on mobile.
 
-![Landing Page image](assets/images/image-off-page.png)
+![Instant Barbeque Image](assets/images/off-page.png)
 
 - __Where to Buy__
 
@@ -123,6 +123,7 @@ My code was helped along by W3 Schools https://www.w3schools.com/
 
 - The text for the website was taken from a data base in work. Recipe courtesy of BBC Good Food Guide.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The Video by <a href="https://pixabay.com/users/xiaoskitchen-1319509/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=11679">Peter &amp; Xiao Harris</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=11679">Pixabay</a>
 
 ### Media
 
