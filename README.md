@@ -77,6 +77,7 @@ In this section, you should go over the different parts of your project, and des
 and can be contacted with new products and more recipe ideas.
 - Links can be added to 'Where to Buy' page on logo's to take user directly to purchse page for product.
 - Add a little background softly playing cowboy music.
+- Add video footage of cooking on Barbeques.
 
 ## Testing 
 

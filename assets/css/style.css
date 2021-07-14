@@ -12,7 +12,7 @@ body {
 
 .active {
     border-radius: 45%;
-    color: 2px solid #FC5200;
+    border-style: ridge;
 }
 
 /* headings and logo */
