@@ -7,10 +7,6 @@ I hope this website will inspire people to get cooking outdoors and use the Cook
 # Design for More Accessibility
 I wanted my site to be SEO friendly, and once you design an accessible website you will have better search results and reach a bigger audience. Navigation options that are clear and consistent, consistent naming. styling and positioning. Have clear orientation clues. Clear labelling of any forms and have them validated. Provide sufficient contrast between forground and background low luminace is needed for anyone that maybe visual impared. Use headings and spacing to group related content, use white space, dont let it be your emeny reduce clutter and make it easier to scan and understand. Create for different viewport sizes. Include 'alt' on your images. Have alternatives for images and media for example links to audio and include text along with icons and buttons. If I had included a video I would have had contols. If you design for all you get a better user experience for everyone, and it cheaper to do at the inital stage of design process.
 
-# User
-I want
-
-
 ![How site would look](assets/images/Screenshot.png)
 Adobe Xd High Fedelity Wireframe Link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
 
@@ -77,21 +73,20 @@ Cookout website is five pages in total with social media links and link to retai
 
 ### Features Left to Implement
 
-- Adding more new products and new recipe ideas. Once the user signs up for the recipe book, they are not a cold call anymore
-and can be contacted with new products and more recipe ideas.
+- Adding more new products and new recipe ideas. Once the user signs up for the recipe book, they are not a cold call anymore and can be contacted with new products and more recipe ideas.
 - Links can be added to 'Where to Buy' page on logo's to take user directly to purchse page for product.
-- Add a little background softly playing cowboy music.
-- Add video footage of cooking on Barbeques.
+- Add a little background softly playing cowboy music. 
+- Add video tutorials on cooking using Barbeques.
 
 ## Testing 
 
-While in the Dev Tools I used the rsponsive tools to view site on iPad and iPhone 5. I also opened on my own Samsung 6
+While in the Dev Tools I used the responsive tools to view site on iPad and iPhone 5. I also opened on my own Samsung 6
 as well as seeing it my iMac. I left one or two items uncentered and this created a nice pause for the eye and flow 
 of reading.(you can get bored travelling in a straight line all the time i.e motorway driving) I also sent to two alternative phone.
 
 All my links work to other websites opening in new windows not to draw the user away The links open on themselves. Screen shots of all testing available in Testing folder.
 
-It has performed the way I wanted it to on different browsers and screen sizes. Quite amazed at the power of flexbox from the little information I know baout it. However there are a few things I would fix, for example making more real estate on mobile screen.
+It has performed the way I wanted it to on different browsers and screen sizes. Quite amazed at the power of flexbox from the little information I know baout it.
 
 ### Validator Testing 
 
@@ -99,11 +94,13 @@ It has performed the way I wanted it to on different browsers and screen sizes. 
   - I have passed all my html pages on W3 HTML Validator and all pages have finally received a document checking completed with no errors or warnings to show. Main errors were rogue tags and alt information added into links that did not need to be there. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - I also used W3 Jigsaw Validator to pass my css file, I had 9 errors and 1 warning which all have been resolved. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- Lighthouse
+  - I used Lighthouse from the dev tools to show up any issues with performance, accessibility, best practice, SEO, and perforamnce these can be found in the testing folder as screenshots.
 
 ### Unfixed Bugs
 
 I did not center a heading on the recipe page as I think the page reads better, it has a nice flow. White space can be important.
-Unfixed bug was a user agent stylesheet that I believe is in chrome. 
+Unfixed bug was a user agent stylesheet that I believe is in chrome. More research needed on that.
 
 ## Deployment
 
@@ -122,7 +119,15 @@ The live link can be found here - https://nedduc.github.io/Cookout-Brand-Awarene
 ## Credits 
 
 I would like to thank my Cohort Facilitator Kasia and my mentor Maria Hynes, two very kind and patient people. My mentor gave me some great advice.
-My code was helped along by W3 Schools https://www.w3schools.com/ 
+My code was helped along by W3 Schools https://www.w3schools.com/
+
+https://www.freecodecamp.org/learn
+
+https://css-tricks.com/pseudo-class-selectors/
+
+http://ami.responsivedesign.is/
+
+https://flexboxfroggy.com/ 
 
 ### Content 
 
@@ -134,7 +139,7 @@ My code was helped along by W3 Schools https://www.w3schools.com/
 
 - The main photos used on each page are from Adobe stock. Product images are from work.
 - The images used for the form page taken from open source site Unsplash https://unsplash.com/s/photos/bbq
-- Cookout logo designed by myself as well as the packaging.
+- Cookout logo designed by myself as well as the packaging and digital book.
 
 
 ______________________________________________________________________________________________________________
