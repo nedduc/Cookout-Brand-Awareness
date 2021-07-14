@@ -9,10 +9,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .active {
-    font-size:110%;
-    border-radius: 50%;
-    border: 3px solid #FC5200;
+    border-radius: 45%;
+    color: 2px solid #FC5200;
 }
 
 /* headings and logo */
@@ -48,7 +48,7 @@ nav {
 .nav-list {
     background-color: rgb(211, 207, 207);
     margin: 0;
-    padding: 1rem 0;
+    padding: 1rem 0rem;
     display: flex;
     font-family: Lato, roboto, sans-serif;
     font-weight: 700;
