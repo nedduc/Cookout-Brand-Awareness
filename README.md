@@ -71,6 +71,12 @@ Cookout website is five pages in total with social media links and link to retai
 
 ![Form for free Recipe Book](assets/images/book-form.png)
 
+- __Thank-you__
+
+  - A message to signify to the user the process has been complete and the digital Cookout cook book its on its way to them.
+
+![Form for free Recipe Book](assets/images/thnak-you.png)
+
 ### Features Left to Implement
 
 - Adding more new products and new recipe ideas. Once the user signs up for the recipe book, they are not a cold call anymore and can be contacted with new products and more recipe ideas.
