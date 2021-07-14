@@ -1,10 +1,14 @@
 # Cookout Brand Awareness
 
-Cookout is a brand that as been estabilished since 1984 it has gone through two new branding updates but has never had a website of it's own. It's a McLoughlinsRS own brand one of Ireland largest retail distributors of Gardening Homewares and DIY in Ireland. Cookout is sold on the B2B website but there is no information background about the product that can be shared with the customer via it's own site or being shared on retailers websites via a link. Therfore creating more brand awarness and creating customer awareness and loyalty.  
+Cookout is a brand that as been estabilished since 1984 it has gone through two new branding updates but has never had a website of it's own. It's a McLoughlinsRS own brand one of Ireland largest retail distributors of Gardening Homewares and DIY in Ireland. Cookout is sold on the B2B website but there is no information background about the product that can be shared with the customer via it's own site or being shared on retailers websites via a link. This would create more brand awarness.  
 
 I hope this website will inspire people to get cooking outdoors and use the Cookout brand while doing so. Keeping with the brand colors and theme, a website that is easy to navigate and not taxing on the user.
 
+# Design for More Accessibility
+I wanted my site to be SEO friendly, and once you design an accessible website you will have better search results and reach a bigger audience. Navigation options that are clear and consistent, consistent naming. styling and positioning. Have clear orientation clues. Clear labelling of any forms and have them validated. Provide sufficient contrast between forground and background low luminace is needed for anyone that maybe visual impared. Use headings and spacing to group related content, use white space, dont let it be your emeny reduce clutter and make it easier to scan and understand. Create for different viewport sizes. Include 'alt' on your images. Have alternatives for images and media for example links to audio and include text along with icons and buttons. If I had included a video I would have had contols. If you design for all you get a better user experience for everyone, and it cheaper to do at the inital stage of design process.
 
+# User
+I want
 
 
 ![How site would look](assets/images/Screenshot.png)
@@ -12,7 +16,7 @@ Adobe Xd High Fedelity Wireframe Link (https://xd.adobe.com/view/c718dec8-7b3f-4
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Cookout website is five pages in total with social media links and link to retail distributors webiste and shopping portal for retailers
 
 ### Features
 
