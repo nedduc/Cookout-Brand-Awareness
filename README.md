@@ -73,9 +73,9 @@ Cookout website is five pages in total with social media links and link to retai
 
 - __Thank-you__
 
-  - A message to signify to the user the process has been complete and the digital Cookout cook book its on its way to them.
+  - A message to signify to the user the process has been complete, the digital Cookout cook book is on its way to them.
 
-![Form for free Recipe Book](assets/images/thnak-you.png)
+![Thank You](assets/images/thank-you.png)
 
 ### Features Left to Implement
 
@@ -83,6 +83,11 @@ Cookout website is five pages in total with social media links and link to retai
 - Links can be added to 'Where to Buy' page on logo's to take user directly to purchse page for product.
 - Add a little background softly playing cowboy music. 
 - Add video tutorials on cooking using Barbeques.
+
+### Technologies used
+
+- HTML
+- CSS
 
 ## Testing 
 
@@ -92,7 +97,11 @@ of reading.(you can get bored travelling in a straight line all the time i.e mot
 
 All my links work to other websites opening in new windows not to draw the user away The links open on themselves. Screen shots of all testing available in Testing folder.
 
-It has performed the way I wanted it to on different browsers and screen sizes. Quite amazed at the power of flexbox from the little information I know baout it.
+![index.html](testing/Nu Html Checker w3s/index-checked.png)
+![were-to-Buy](testing/Nu Html Checker w3s/were-to-buy-checked.png)
+![Recipe](testing/Nu Html Checker w3s/recipe-checked.png)
+![Book-ordereing](testing/Nu Html Checker w3s/book-checked.png)
+![Thank-You](testing/Nu Html Checker w3s/thank-you-checked.png)
 
 ### Validator Testing 
 
@@ -143,7 +152,7 @@ https://flexboxfroggy.com/
 
 ### Media
 
-- The main photos used on each page are from Adobe stock. Product images are from work.
+- The main photos used on each page are from Adobe stock images. Product images are from work.
 - The images used for the form page taken from open source site Unsplash https://unsplash.com/s/photos/bbq
 - Cookout logo designed by myself as well as the packaging and digital book.
 
