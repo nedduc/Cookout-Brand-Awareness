@@ -1,6 +1,6 @@
 # Cookout Brand Awareness
 
-Cookout is a brand that as been estabilished since 1984 it has gone through two new branding updates but has never had a website of it's own. It's a McLoughlinsRS own brand one of Ireland largest retail distributors of Gardening Homewares and DIY in Ireland. Cookout is sold on the B2B website but there is no information background about the product that can be shared with the customer via it's own site or being shared on retailers websites via a link. This would create more brand awarness.  
+Cookout is a brand that as been estabilished since 1984 it has gone through two new branding updates but has never had a website of it's own. It's a McLoughlinsRS own brand one of Ireland largest retail distributors of Gardening Homewares and DIY in Ireland. Cookout is sold on the B2B website but there is no information background about the product that can be shared with the customer via it's own site or being shared on retailers websites via a link. This would create more brand awareness.  
 
 I hope this website will inspire people to get cooking outdoors and use the Cookout brand while doing so. Keeping with the brand colors and theme, a website that is easy to navigate and not taxing on the user.
 
@@ -10,9 +10,13 @@ I wanted my site to be SEO friendly, and once you design an accessible website y
 ![How site would look](assets/images/Screenshot.png)
 Adobe Xd High Fedelity Wireframe Link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
 
+## Site Map
+![How site would look](assets/images/Screenshot.png)
+
+
 ## Features 
 
-Cookout website is five pages in total with social media links and link to retail distributors webiste and shopping portal for retailers
+Cookout website is five pages in total with social media links and links to retail distributors webiste and shopping portal.
 
 ### Features
 
@@ -65,13 +69,13 @@ Cookout website is five pages in total with social media links and link to retai
 
 ![Footer](assets/images/footer.png)
 
-- __Form for Digital Book__
+- __Application for Digital Book__
 
-  - Allowing the user to recieve a free digital recipe book connected with Barbeques. The user will be asked to submit their full name and email address. How they heard abou the brand. 
+  - Allowing the user to recieve a free digital recipe book connected with Barbeques. The user will be asked to submit their full name and email address. How they heard abou the brand. Required fields need to filled in. 
 
 ![Form for free Recipe Book](assets/images/book-form.png)
 
-- __Thank-you__
+- __Thank-You__
 
   - A message to signify to the user the process has been complete, the digital Cookout cook book is on its way to them.
 
@@ -88,6 +92,7 @@ Cookout website is five pages in total with social media links and link to retai
 
 - HTML
 - CSS
+- Photoshop
 
 ## Testing 
 
@@ -106,11 +111,13 @@ All my links work to other websites opening in new windows not to draw the user 
 ### Validator Testing 
 
 - HTML
-  - I have passed all my html pages on W3 HTML Validator and all pages have finally received a document checking completed with no errors or warnings to show. Main errors were rogue tags and alt information added into links that did not need to be there. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - I have passed all my html pages on W3 HTML Validator and all pages have finally received a document checking completed with no errors or warnings to show. Main errors were rogue tags and alt information added into links that did not need to be there.
 - CSS
-  - I also used W3 Jigsaw Validator to pass my css file, I had 9 errors and 1 warning which all have been resolved. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - I also used W3 Jigsaw Validator to pass my css file, I had 9 errors and 1 warning which all have been resolved.
 - Lighthouse
   - I used Lighthouse from the dev tools to show up any issues with performance, accessibility, best practice, SEO, and perforamnce these can be found in the testing folder as screenshots.
+
+  what I did notice was if you have a tag closing in the wrong place it wont show up as a error.(testing/Nu Html Checker w3s/line 29 <form> not closed after fieldset link broken.png)
 
 ### Unfixed Bugs
 
@@ -148,7 +155,6 @@ https://flexboxfroggy.com/
 
 - The text for the website was taken from a data base in work. Recipe courtesy of BBC Good Food Guide.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- The Video by <a href="https://pixabay.com/users/xiaoskitchen-1319509/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=11679">Peter &amp; Xiao Harris</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=11679">Pixabay</a>
 
 ### Media
 
