@@ -10,6 +10,20 @@ I wanted my site to be SEO friendly, and once you design an accessible website y
 ![How site would look](assets/images/Screenshot.png)
 Adobe Xd High Fedelity Wireframe Link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
 
+![Site on Github]
+Link to site on Github (https://nedduc.github.io/Cookout-Brand-Awareness/)
+
+### User Story
+
+  - A a user I would want to find out more about the brand and where to buy
+  - As a user being a retailer may want to stock the brand
+  - As a user I may hve more questions about the product maybe I did buy this product and now it needs servicing
+  - As a user I may have lost the instruction to go with the product and do not know how to operate
+  - As a user I want to be able to contact the supplier/distributor if there is any more information or have any more questions
+  - A a user I may want to know how can I stock this product
+  - A a user I may want to know about future products
+  - A a user I may want to follow them on social media for new offerings
+
 ## Site Map
 ![Site Map](assets/images/site-map.png)
 
