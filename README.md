@@ -11,7 +11,7 @@ I wanted my site to be SEO friendly, and once you design an accessible website y
 Adobe Xd High Fedelity Wireframe Link (https://xd.adobe.com/view/c718dec8-7b3f-4b80-7464-25e5be7b8f89-b129/)
 
 ## Site Map
-![How site would look](assets/images/Screenshot.png)
+![Site Map](assets/images/site-map.png)
 
 
 ## Features 
